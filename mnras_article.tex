@@ -1,0 +1,326 @@
+% mnras_template.tex 
+%
+% LaTeX template for creating an MNRAS paper
+%
+% v3.0 released 14 May 2015
+% (version numbers match those of mnras.cls)
+%
+% Copyright (C) Royal Astronomical Society 2015
+% Authors:
+% Keith T. Smith (Royal Astronomical Society)
+
+% Change log
+%
+% v3.0 May 2015
+%    Renamed to match the new package name
+%    Version number matches mnras.cls
+%    A few minor tweaks to wording
+% v1.0 September 2013
+%    Beta testing only - never publicly released
+%    First version: a simple (ish) template for creating an MNRAS paper
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Basic setup. Most papers should leave these options alone.
+\documentclass[fleqn,usenatbib]{mnras}
+
+% MNRAS is set in Times font. If you don't have this installed (most LaTeX
+% installations will be fine) or prefer the old Computer Modern fonts, comment
+% out the following line
+\usepackage{newtxtext,newtxmath}
+% Depending on your LaTeX fonts installation, you might get better results with one of these:
+%\usepackage{mathptmx}
+%\usepackage{txfonts}
+
+% Use vector fonts, so it zooms properly in on-screen viewing software
+% Don't change these lines unless you know what you are doing
+\usepackage[T1]{fontenc}
+\usepackage{ae,aecompl}
+
+
+%%%%% AUTHORS - PLACE YOUR OWN PACKAGES HERE %%%%%
+
+% Only include extra packages if you really need them. Common packages are:
+\usepackage{graphicx}	% Including figure files
+\usepackage{amsmath}	% Advanced maths commands
+\usepackage{amssymb}	% Extra maths symbols
+\usepackage{sistyle}    %SI unit style
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%% AUTHORS - PLACE YOUR OWN COMMANDS HERE %%%%%
+
+% Please keep new commands to a minimum, and use \newcommand not \def to avoid
+% overwriting existing commands. Example:
+%\newcommand{\pcm}{\,cm$^{-2}$}	% per cm-squared
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%% TITLE PAGE %%%%%%%%%%%%%%%%%%%
+
+% Title of the paper, and the short title which is used in the headers.
+% Keep the title short and informative.
+\title[Running Head]{Mapping The Milky Way at 21 cm Hydrogen Line}
+
+% The list of authors, and the short list which is used in the headers.
+% If you need two or more lines of authors, add an extra line using \newauthor
+\author[Mir Sakhawat Hossain et al.]{
+Mir Sakhawat Hossain,$^{1}$\thanks{E-mail: s.hossain18@gmail.com}
+%A. N. Other,$^{2}$
+%Third Author$^{2,3}$
+\\
+% List of institutions
+$^{1}$International Astrostatistics Association, Milano, Italy\\
+$^{1}$Department of Mathematics, Kabi Nazrul Government College, Laxmi Bazar, Dhaka-1100, Bangladesh\\
+%$^{3}$Another Department, Different Institution, Street Address, City Postal Code, Country
+}
+
+% These dates will be filled out by the publisher
+\date{Accepted XXX. Received YYY; in original form ZZZ}
+
+% Enter the current year, for the copyright statements etc.
+\pubyear{2018}
+
+% Don't change these lines
+\begin{document}
+\label{firstpage}
+\pagerange{\pageref{firstpage}--\pageref{lastpage}}
+\maketitle
+
+% Abstract of the paper
+\begin{abstract}
+After discovery of radiation from Galactic Hydrogen gas clouds in 1951 the 21 cm wavelength hyperfine line of atomic Hydrogen has become the best method to study spectral features in radio astronomy. It has been used as an important tracer for the distribution and velocity of gas clouds in the Inter stellar that has helped enormously to understand the galactic structure. For undergraduate level laboratory experiment it can be assembled a radio frequency receiving system at a low cost to study galactic structure. This paper presents an observation to determine the spiral structure of Milky Way galaxy which was carried out within galactic coordinate longitude $6\degr$ to $225\degr$ and latitude $0\degr$ to $35\degr$ with a low cost Haystack model type radio frequency receiving system $2.3$ metre SALSA radio telescope at Onsala Space Observatory in Sweden maintained by Chalmers University of Technology. Velocity components of Hydrogen gas clouds were calculated in different galactic longitudes and latitudes as function of distance from galactic centre to plot spiral galactic arms. This observation was made in frequency switching mode and the telescope was remotely operated by internet.
+\end{abstract}
+
+% Select between one and six entries from the list of approved keywords.
+% Don't make up new ones.
+\begin{keywords}
+Galaxy: general -- Galaxy: structure -- radio lines: galaxies -- surveys
+\end{keywords}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%% BODY OF PAPER %%%%%%%%%%%%%%%%%%
+
+\section{Introduction}
+Neutral Hydrogen(\ion{H}{I}) at ground state level is abundant and uniformly distributed element throughout the interstellar medium(ISM). It is the most ubiquitous element in low density regions of ISM but detectable in $\lambda\approx21$ cm or $\approx1420$ MHz where $\textnormal{H}_2$ is symmetric but not detectable at the radio frequencies. In 1933 Karl Guthe Jansky detected first extraterrestrial radio frequency\citep{jansky1933radio}. After that in 45 Then Van de Hulst predicted $21$ cm wavelength emission\citep{CJBakker1945}. The same frequency line also detected by Muller and Oort\citep{muller1951observation} in the same year. A preliminary survey was taken by Christiansen and Hindman\citep{christiansen1952preliminary} in Australia. They made this survey with a $7.5$\textnormal{-m} paraboloid and movable radio antenna with beam width between half power $1.9\degr$ in horizontal and $2.7\degr$ in vertical direction and it covered galactic longitude $-10\degr$ to $+10\degr$ at galactic plane. In Netherlands Muller and Westerhout\citep{Muller1957} took an extended neutral HI line profile survey and made a catalogue approximately in galactic latitude $\pm20\degr$ and longitude $318\degr$ to $220\degr$. Within these periods angular resolution has been developed from $30\deg$ to $30$\,-\micro as\citep{kellermann2001development,Middelberg2008}. Recently all sky mapping in HI line based on EBHIS and GASS has been completed\citep{bekhti2016hi4pi} with angular resolution $16.2\arcsec$ and sensivity $\sigma_{rms}=43$\,mK. Santo and Ashraf\citep{santo2013mapping} carried out a galactic survey to map Milky Way galaxy in galactic longitude $0\degr$ to $225\degr$ at galactic plane using SALSA radio telescope which was built for EU HOU project\citep{Doran2007}. Considering this observation we have completed our observation using the SALSA radio telescope in extended galactic coordinates i.e., galactic longitude $6\degr$ to $225\degr$ and latitude $0\degr$ to $35\degr$. We have discussed here galactic geometry for observable parameters, observation details, data analysis and results with plotting and importance of this project.
+
+\section{Theory}
+
+\subsection{Hyperfine Splitting of Hydrogen}
+
+Neutral Hydrogen consists of a motionless proton(positive charged $+e$) and moving electron(negative charged $-e$) e.g. Fig~\ref{fig:hyperfine_figure}. Electron orbits around proton for the mutual attraction of opposite charges. The derivation is as follows Griffiths\citep{griffiths2016introduction}. We can imagine electron is orbiting around nucleus(proton). From the view of electron proton is orbiting electron. This circling creates a magnetic field $\mathbfit{B}$ in the frame of electron which causes torque on spinning electron. It tends to align its magnetic moment($\bmath{\mathit{\umu}}$) along the direction of magnetic field. So Hamiltonian
+
+\begin{equation}
+  \mathit{H}=-\bmath{\mathit{\umu}\cdot\mathit{B}}
+\end{equation}  
+
+We can calculate magnetic field of proton($\mathbfit{B}$) and dipole moment of electron($\bmath{\mathit{\umu}}$) using Biot Savart law which is
+
+\begin{equation}
+  \mathbfit{B}=\frac{\mathit{\umu_{0}I}}{2r}
+\end{equation}
+
+Moreover magnetic field $\mathbfit{B}$ and angular momentum $\mathbfit{L}$ is in the same direction, so
+
+\begin{equation}
+ \mathbfit{B}=\frac{1}{4\upi\-\epsilon_{0}}\frac{\mathit{e}}{\mathit{mc^{2}r^{3}}}
+\end{equation}
+
+The direction of magnetic moment $\bmath{\mathit{\umu}}$ and spin $\mathbfit{S}$ are the same, so
+
+\begin{equation}
+ \bmath{\mathit{\umu}}=\frac{\mathit{q}}{2\mathit{m}}\mathbfit{S}
+\end{equation}
+
+If charge of electron is $\mathit{e}$, mass of electron is $\mathit{m_{e}}$ and spin of electron is $\mathbfit{S}_{e}$ then magnetic moment of electron is,
+
+\begin{equation}
+ \mathit{\bmath{\umu}}_{e}=-\frac{\mathit{e}}{\mathit{m_{e}}}\mathbfit{S}_{e}
+\end{equation}
+
+If mass of proton is $\mathit{m_{e}}$, spin of proton is ${\mathbfit{S}}_{e}$ and g-factor is $\mathbfit{g}_{p}$(measured value is 5.59) then magnetic moment of proton is,
+
+\begin{equation}
+ \mathit{\bmath{\umu}}_{e}=\frac{\mathit{g}_{p}\mathit{e}}{2\mathit{m}_{p}}\mathbfit{S}_{p}
+\end{equation}
+
+In accordance with classical electrodynamics magnetic field produced by dipole $\mathit{\bmath{\umu}}$ of proton sets up magnetic field
+
+\begin{equation}
+ \mathbfit{B}=\frac{\mathit{\umu}_{0}}{4\mathit{\upi}\-\mathit{r}^{3}}[3(\mathit{\bmath{\umu}}\bmath{\cdot}\mathit{\hat{r}})\mathit{\hat{r}}-\mathit{\bmath{\umu}}]+\frac{2\mathit{\umu}}{3}\mathit{\bmath{\umu}}\mathit{\delta}^{3}(\mathbfit{r})
+\end{equation}
+
+So Hamiltonian of the electron in the magnetic field due to magnetic dipole moment of proton is
+
+\begin{equation}
+\begin{split}
+ \mathbfit{H}'_{hf}=\frac{\mathit{\umu}_{0}g_{p}\mathit{e}^{2}}{8\mathit{\upi}\mathit{m}_{p}\mathit{m}_{e}}\frac{[(3\mathbfit{S}_{e}\bmath{\cdot}\mathit{\hat{r}})(\mathbfit{S}_{e}\bmath{\cdot}\mathit{\hat{r}})]-\mathbfit{S}_{p}\bmath{\cdot}\mathbfit{S}_{e}}{\mathit{r}^{3}}+\\\frac{\mathit{\umu}_{0}g_{p}\mathit{e}^{2}}{3\mathit{m}_{p}\mathit{m}_{e}}\mathbfit{S}_{p}\bmath{\cdot}\mathbf{S}_{e}\delta^{3}(\mathbfit{r})
+\end{split}  
+\end{equation}
+
+In accordance with perturbation the first order correction is the expectation value of the perturbing Hamitonian
+
+\begin{equation}
+\begin{split}
+ \mathit{E}_{hf}^{1}=\frac{\mathit{\umu}_{0}g_{p}\mathit{e}^{2}}{8\mathit{\upi}\mathit{m}_{p}\mathit{m}_{e}}\left\langle\frac{[(3\mathbfit{S}_{e}\bmath{\cdot}\mathit{\hat{r}})(\mathbfit{S}_{e}\bmath{\cdot}\mathit{\hat{r}})]-\mathbfit{S}_{p}\bmath{\cdot}\mathbfit{S}_{e}}{\mathit{r}^{3}}\right\rangle+\\\frac{\mathit{\umu}_{0}g_{p}\mathit{e}^{2}}{3\mathit{m}_{p}\mathit{m}_{e}}\left\langle\mathbfit{S}_{p}\bmath{\cdot}\mathbfit{S}_{e}\right\rangle\vert\mathit{\psi}\left(0\right)\vert^{2}
+\end{split} 
+\end{equation}
+
+In the ground state level the wave function is spherically symmetrical and the first expectation value vanishes. So we get
+
+\begin{equation}
+ \mathit{E}_{hf}^{1}=\frac{\mathit{\umu}_{0}g_{p}e^{2}}{3\upi\mathit{m}_{p}\mathit{m}_{e}\mathit{a}^{3}}\left\langle\mathbfit{S}_{p}\bmath{\cdot}\mathbfit{S}_{e}\right\rangle
+\end{equation}
+
+This is called spin-spin coupling because of the dot product of two spin $\mathbfit{S}_{p}$ and $\mathbfit{S}_{e}$. For this coupling the individual spin angular momenta are not conserved. So the good states are eigen vectors of total spin
+
+\begin{equation}
+ \mathbfit{S}\equiv\mathbfit{S}_{e}+\mathbfit{S}_{p}
+\end{equation}
+
+By applying total spin states the expected perturbation value can be written as terms of eigen operators as follows
+
+\begin{equation}
+  \mathbfit{S}_{p}\bmath{\cdot}\mathbfit{S}_{e}=\frac{1}{2}(\mathit{S}^{2}-\mathit{S}_{e}^{2}-\mathit{S}_{p}^{2})
+ \end{equation}
+ 
+But both of electron and proton have spin $1/2$, so\\ $\mathit{S}_{e}^{2}=\mathit{S}_{p}^{2}=(3/4)\mathit{\hbar}^{2}$. In the triplet state(parallel spins) total spin is $1$ and so $\mathit{S}^{2}=2\mathit{\hbar}^{2}$. In the singlet state total spin is $0$ and $\mathit{S}^{2}=0$. Thus
+
+\begin{equation}
+ \mathit{E}_{hf}^{1}=\frac{4\mathit{g}_{p}\mathit{\hbar}^{4}}{3\mathit{m}_{p}\mathit{m}_{e}^{2}\mathit{c}^{2}\mathit{a}^{4}}\begin{cases}
+ +\frac{1}{4}& \text{(triplet)}\\
+ -\frac{3}{4}& \text{(singlet)}
+\end{cases} 
+\end{equation}
+
+The spin-spin coupling breaks the spin degeneracy of the ground state lifting the triplet configuration and depressing the singlet. The energy gap is evidently
+
+\begin{equation}
+ \Delta\-E=\frac{4\mathit{g}_{p}\mathit{\hbar}^{4}}{3\mathit{m}_{p}\mathit{m}_{e}^{2}\mathit{c}^{2}\mathit{a}^{4}}=5.88\times10^{-6} eV
+\end{equation}
+
+
+The frequency of the photon emitted in a transition from the triplet to the singlet state is,
+
+\begin{equation}
+ \mathit{\nu}=\frac{\Delta\-E}{h}=\SI{1420}{MHz}
+\end{equation}
+
+The corresponding wavelength is $c/\nu=21$ cm which is part of micro wave region. In a single Hydrogen atom this transition occurs once per $\approx10^{7}$ years but enormous amount of Hydrogen in spiral arms of Milky Way galaxy causes pervasive and ubiquitous forms of radiation which is observable by radio telescope.
+
+\begin{figure}
+ \includegraphics[width=\columnwidth]{hyperfine}
+ \caption{Illustration of the 21 cm transition of the hydrogen atom, caused by the energy change
+when the electron's spin changes from parallel with the proton's spin to antiparallel.}
+ \label{fig:hyperfine_figure}
+\end{figure}
+
+\section{Methods, Observations, Simulations etc.}
+
+Normally the next section describes the techniques the authors used.
+It is frequently split into subsections, such as Section~\ref{sec:maths} below.
+
+\subsection{Maths}
+\label{sec:maths} % used for referring to this section from elsewhere
+
+Simple mathematics can be inserted into the flow of the text e.g. $2\times3=6$
+or $v=220$\,km\,s$^{-1}$, but more complicated expressions should be entered
+as a numbered equation:
+
+\begin{equation}
+    x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}.
+	\label{eq:quadratic}
+\end{equation}
+
+Refer back to them as e.g. equation~(\ref{eq:quadratic}).
+
+\subsection{Figures and tables}
+
+Figures and tables should be placed at logical positions in the text. Don't
+worry about the exact layout, which will be handled by the publishers.
+
+Figures are referred to as e.g. Fig.~\ref{fig:example_figure}, and tables as
+e.g. Table~\ref{tab:example_table}.
+
+% Example figure
+\begin{figure}
+	% To include a figure from a file named example.*
+	% Allowable file formats are eps or ps if compiling using latex
+	% or pdf, png, jpg if compiling using pdflatex
+	\includegraphics[width=\columnwidth]{example}
+    \caption{This is an example figure. Captions appear below each figure.
+	Give enough detail for the reader to understand what they're looking at,
+	but leave detailed discussion to the main body of the text.}
+    \label{fig:example_figure}
+\end{figure}
+
+% Example table
+\begin{table}
+	\centering
+	\caption{This is an example table. Captions appear above each table.
+	Remember to define the quantities, symbols and units used.}
+	\label{tab:example_table}
+	\begin{tabular}{lccr} % four columns, alignment for each
+		\hline
+		A & B & C & D\\
+		\hline
+		1 & 2 & 3 & 4\\
+		2 & 4 & 6 & 8\\
+		3 & 5 & 7 & 9\\
+		\hline
+	\end{tabular}
+\end{table}
+
+
+\section{Conclusions}
+
+The last numbered section should briefly summarise what has been done, and describe
+the final conclusions which the authors draw from their work.
+
+\section*{Acknowledgements}
+
+The Acknowledgements section is not numbered. Here you can thank helpful
+colleagues, acknowledge funding agencies, telescopes and facilities used etc.
+Try to keep it short.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%% REFERENCES %%%%%%%%%%%%%%%%%%
+
+% The best way to enter references is to use BibTeX:
+
+\bibliographystyle{mnras}
+\bibliography{mybib} % if your bibtex file is called example.bib
+
+
+% Alternatively you could enter them by hand, like this:
+% This method is tedious and prone to error if you have lots of references
+%\begin{thebibliography}{99}
+%\bibitem[\protect\citeauthoryear{Author}{2012}]{Author2012}
+%Author A.~N., 2013, Journal of Improbable Astronomy, 1, 1
+%\bibitem[\protect\citeauthoryear{Others}{2013}]{Others2013}
+%Others S., 2012, Journal of Interesting Stuff, 17, 198
+%\end{thebibliography}
+% > \end{thebibliography}
+%
+% ^.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%% APPENDICES %%%%%%%%%%%%%%%%%%%%%
+
+\appendix
+
+\section{Some extra material}
+
+If you want to present additional material which would interrupt the flow of the main paper,
+it can be placed in an Appendix which appears after the list of references.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% Don't change these lines
+\bsp	% typesetting comment
+\label{lastpage}
+\end{document}
+
+% End of mnras_template.tex

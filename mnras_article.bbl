@@ -1,0 +1,69 @@
+\begin{thebibliography}{}
+\makeatletter
+\relax
+\def\mn@urlcharsother{\let\do\@makeother \do\$\do\&\do\#\do\^\do\_\do\%\do\~}
+\def\mn@doi{\begingroup\mn@urlcharsother \@ifnextchar [ {\mn@doi@}
+  {\mn@doi@[]}}
+\def\mn@doi@[#1]#2{\def\@tempa{#1}\ifx\@tempa\@empty \href
+  {http://dx.doi.org/#2} {doi:#2}\else \href {http://dx.doi.org/#2} {#1}\fi
+  \endgroup}
+\def\mn@eprint#1#2{\mn@eprint@#1:#2::\@nil}
+\def\mn@eprint@arXiv#1{\href {http://arxiv.org/abs/#1} {{\tt arXiv:#1}}}
+\def\mn@eprint@dblp#1{\href {http://dblp.uni-trier.de/rec/bibtex/#1.xml}
+  {dblp:#1}}
+\def\mn@eprint@#1:#2:#3:#4\@nil{\def\@tempa {#1}\def\@tempb {#2}\def\@tempc
+  {#3}\ifx \@tempc \@empty \let \@tempc \@tempb \let \@tempb \@tempa \fi \ifx
+  \@tempb \@empty \def\@tempb {arXiv}\fi \@ifundefined
+  {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
+  mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
+
+\bibitem[\protect\citeauthoryear{Bekhti et~al.,}{Bekhti
+  et~al.}{2016}]{bekhti2016hi4pi}
+Bekhti N.~B.,  et~al., 2016, \mn@doi [Astronomy \& Astrophysics]
+  {10.1051/0004-6361/201629178}, 594, A116
+
+\bibitem[\protect\citeauthoryear{C~J~Bakker}{C~J~Bakker}{1945}]{CJBakker1945}
+C~J~Bakker H. C. v. d.~H.,  1945, Radiogolven uit het wereldruim.
+s-Gravenhage : Martinus Nijhoff
+
+\bibitem[\protect\citeauthoryear{Christiansen \& Hindman}{Christiansen \&
+  Hindman}{1952}]{christiansen1952preliminary}
+Christiansen W.~N.,  Hindman J.~V.,  1952, \mn@doi [Australian Journal of
+  Chemistry] {10.1071/ch9520437}, 5, 437
+
+\bibitem[\protect\citeauthoryear{Doran et~al.,}{Doran et~al.}{2007}]{Doran2007}
+Doran R.,  et~al., 2007, in European Planetary Science Congress 2007. p.~940,
+  \url {http://adsabs.harvard.edu/abs/2007epsc.conf..940D}
+
+\bibitem[\protect\citeauthoryear{Griffiths}{Griffiths}{2016}]{griffiths2016introduction}
+Griffiths D.~J.,  2016, Introduction to quantum mechanics.
+Cambridge University Press
+
+\bibitem[\protect\citeauthoryear{Jansky}{Jansky}{1933}]{jansky1933radio}
+Jansky K.~G.,  1933, \mn@doi [Nature] {10.1038/132066a0}, 132, 66
+
+\bibitem[\protect\citeauthoryear{Kellermann \& Moran}{Kellermann \&
+  Moran}{2001}]{kellermann2001development}
+Kellermann K.~I.,  Moran J.~M.,  2001, \mn@doi [Annual Review of Astronomy and
+  Astrophysics] {10.1146/annurev.astro.39.1.457}, 39, 457
+
+\bibitem[\protect\citeauthoryear{Middelberg \& Bach}{Middelberg \&
+  Bach}{2008}]{Middelberg2008}
+Middelberg E.,  Bach U.,  2008, \mn@doi [Reports on Progress in Physics]
+  {10.1088/0034-4885/71/6/066901}, 71, 066901
+
+\bibitem[\protect\citeauthoryear{Muller \& Oort}{Muller \&
+  Oort}{1951}]{muller1951observation}
+Muller C.~A.,  Oort J.~H.,  1951, \mn@doi [Nature] {10.1038/168357a0}, 168, 357
+
+\bibitem[\protect\citeauthoryear{Muller, Westerhout  et~al.}{Muller
+  et~al.}{1957}]{Muller1957}
+Muller C.~A.,  Westerhout G.,   et~al., 1957, Bulletin of the Astronomical
+  Institutes of the Netherlands, 13, 151
+
+\bibitem[\protect\citeauthoryear{Santo \& Uddin}{Santo \&
+  Uddin}{2013}]{santo2013mapping}
+Santo T.~R.,  Uddin S.~A.,  2013, International Journal of Astronomy, 2, 37
+
+\makeatother
+\end{thebibliography}
