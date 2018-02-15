@@ -107,112 +107,154 @@ Neutral Hydrogen(\ion{H}{I}) at ground state level is abundant and uniformly dis
 
 \subsection{Hyperfine Splitting of Hydrogen}
 
-Neutral Hydrogen consists of a motionless proton(positive charged $+e$) and moving electron(negative charged $-e$) e.g. Fig~\ref{fig:hyperfine_figure}. Electron orbits around proton for the mutual attraction of opposite charges. The derivation is as follows Griffiths\citep{griffiths2016introduction}. We can imagine electron is orbiting around nucleus(proton). From the view of electron proton is orbiting electron. This circling creates a magnetic field $\mathbfit{B}$ in the frame of electron which causes torque on spinning electron. It tends to align its magnetic moment($\bmath{\mathit{\umu}}$) along the direction of magnetic field. So Hamiltonian
+Neutral Hydrogen consists of a motionless proton(positive charged $+e$) and moving electron(negative charged $-e$) e.g. Fig~\ref{fig:hyperfine_figure}. Electron orbits around proton for the mutual attraction of opposite charges. The derivation is as follows Griffiths\citep{griffiths2016introduction}. We can imagine electron is orbiting around nucleus(proton). From the view of electron proton is orbiting electron. This circling creates a magnetic field $\mathbfit{B}$ in the frame of electron which causes torque on spinning electron. It tends to align its magnetic moment($\bmath{\mathit{\umu}}$) along the direction of magnetic field. So Hamiltonian~(\ref{eq:hamiltonian})
 
 \begin{equation}
   \mathit{H}=-\bmath{\mathit{\umu}\cdot\mathit{B}}
-\end{equation}  
-
-We can calculate magnetic field of proton($\mathbfit{B}$) and dipole moment of electron($\bmath{\mathit{\umu}}$) using Biot Savart law which is
-
-\begin{equation}
-  \mathbfit{B}=\frac{\mathit{\umu_{0}I}}{2r}
+  \label{eq:hamiltonian} 
 \end{equation}
-
-Moreover magnetic field $\mathbfit{B}$ and angular momentum $\mathbfit{L}$ is in the same direction, so
-
-\begin{equation}
- \mathbfit{B}=\frac{1}{4\upi\-\epsilon_{0}}\frac{\mathit{e}}{\mathit{mc^{2}r^{3}}}
-\end{equation}
-
-The direction of magnetic moment $\bmath{\mathit{\umu}}$ and spin $\mathbfit{S}$ are the same, so
-
-\begin{equation}
- \bmath{\mathit{\umu}}=\frac{\mathit{q}}{2\mathit{m}}\mathbfit{S}
-\end{equation}
-
-If charge of electron is $\mathit{e}$, mass of electron is $\mathit{m_{e}}$ and spin of electron is $\mathbfit{S}_{e}$ then magnetic moment of electron is,
-
-\begin{equation}
- \mathit{\bmath{\umu}}_{e}=-\frac{\mathit{e}}{\mathit{m_{e}}}\mathbfit{S}_{e}
-\end{equation}
-
-If mass of proton is $\mathit{m_{e}}$, spin of proton is ${\mathbfit{S}}_{e}$ and g-factor is $\mathbfit{g}_{p}$(measured value is 5.59) then magnetic moment of proton is,
-
-\begin{equation}
- \mathit{\bmath{\umu}}_{e}=\frac{\mathit{g}_{p}\mathit{e}}{2\mathit{m}_{p}}\mathbfit{S}_{p}
-\end{equation}
-
-In accordance with classical electrodynamics magnetic field produced by dipole $\mathit{\bmath{\umu}}$ of proton sets up magnetic field
-
-\begin{equation}
- \mathbfit{B}=\frac{\mathit{\umu}_{0}}{4\mathit{\upi}\-\mathit{r}^{3}}[3(\mathit{\bmath{\umu}}\bmath{\cdot}\mathit{\hat{r}})\mathit{\hat{r}}-\mathit{\bmath{\umu}}]+\frac{2\mathit{\umu}}{3}\mathit{\bmath{\umu}}\mathit{\delta}^{3}(\mathbfit{r})
-\end{equation}
-
-So Hamiltonian of the electron in the magnetic field due to magnetic dipole moment of proton is
-
-\begin{equation}
-\begin{split}
- \mathbfit{H}'_{hf}=\frac{\mathit{\umu}_{0}g_{p}\mathit{e}^{2}}{8\mathit{\upi}\mathit{m}_{p}\mathit{m}_{e}}\frac{[(3\mathbfit{S}_{e}\bmath{\cdot}\mathit{\hat{r}})(\mathbfit{S}_{e}\bmath{\cdot}\mathit{\hat{r}})]-\mathbfit{S}_{p}\bmath{\cdot}\mathbfit{S}_{e}}{\mathit{r}^{3}}+\\\frac{\mathit{\umu}_{0}g_{p}\mathit{e}^{2}}{3\mathit{m}_{p}\mathit{m}_{e}}\mathbfit{S}_{p}\bmath{\cdot}\mathbf{S}_{e}\delta^{3}(\mathbfit{r})
-\end{split}  
-\end{equation}
-
-In accordance with perturbation the first order correction is the expectation value of the perturbing Hamitonian
-
-\begin{equation}
-\begin{split}
- \mathit{E}_{hf}^{1}=\frac{\mathit{\umu}_{0}g_{p}\mathit{e}^{2}}{8\mathit{\upi}\mathit{m}_{p}\mathit{m}_{e}}\left\langle\frac{[(3\mathbfit{S}_{e}\bmath{\cdot}\mathit{\hat{r}})(\mathbfit{S}_{e}\bmath{\cdot}\mathit{\hat{r}})]-\mathbfit{S}_{p}\bmath{\cdot}\mathbfit{S}_{e}}{\mathit{r}^{3}}\right\rangle+\\\frac{\mathit{\umu}_{0}g_{p}\mathit{e}^{2}}{3\mathit{m}_{p}\mathit{m}_{e}}\left\langle\mathbfit{S}_{p}\bmath{\cdot}\mathbfit{S}_{e}\right\rangle\vert\mathit{\psi}\left(0\right)\vert^{2}
-\end{split} 
-\end{equation}
-
-In the ground state level the wave function is spherically symmetrical and the first expectation value vanishes. So we get
-
-\begin{equation}
- \mathit{E}_{hf}^{1}=\frac{\mathit{\umu}_{0}g_{p}e^{2}}{3\upi\mathit{m}_{p}\mathit{m}_{e}\mathit{a}^{3}}\left\langle\mathbfit{S}_{p}\bmath{\cdot}\mathbfit{S}_{e}\right\rangle
-\end{equation}
-
-This is called spin-spin coupling because of the dot product of two spin $\mathbfit{S}_{p}$ and $\mathbfit{S}_{e}$. For this coupling the individual spin angular momenta are not conserved. So the good states are eigen vectors of total spin
-
-\begin{equation}
- \mathbfit{S}\equiv\mathbfit{S}_{e}+\mathbfit{S}_{p}
-\end{equation}
-
-By applying total spin states the expected perturbation value can be written as terms of eigen operators as follows
-
-\begin{equation}
-  \mathbfit{S}_{p}\bmath{\cdot}\mathbfit{S}_{e}=\frac{1}{2}(\mathit{S}^{2}-\mathit{S}_{e}^{2}-\mathit{S}_{p}^{2})
- \end{equation}
- 
-But both of electron and proton have spin $1/2$, so\\ $\mathit{S}_{e}^{2}=\mathit{S}_{p}^{2}=(3/4)\mathit{\hbar}^{2}$. In the triplet state(parallel spins) total spin is $1$ and so $\mathit{S}^{2}=2\mathit{\hbar}^{2}$. In the singlet state total spin is $0$ and $\mathit{S}^{2}=0$. Thus
-
-\begin{equation}
- \mathit{E}_{hf}^{1}=\frac{4\mathit{g}_{p}\mathit{\hbar}^{4}}{3\mathit{m}_{p}\mathit{m}_{e}^{2}\mathit{c}^{2}\mathit{a}^{4}}\begin{cases}
- +\frac{1}{4}& \text{(triplet)}\\
- -\frac{3}{4}& \text{(singlet)}
-\end{cases} 
-\end{equation}
-
-The spin-spin coupling breaks the spin degeneracy of the ground state lifting the triplet configuration and depressing the singlet. The energy gap is evidently
-
-\begin{equation}
- \Delta\-E=\frac{4\mathit{g}_{p}\mathit{\hbar}^{4}}{3\mathit{m}_{p}\mathit{m}_{e}^{2}\mathit{c}^{2}\mathit{a}^{4}}=5.88\times10^{-6} eV
-\end{equation}
-
-
-The frequency of the photon emitted in a transition from the triplet to the singlet state is,
-
-\begin{equation}
- \mathit{\nu}=\frac{\Delta\-E}{h}=\SI{1420}{MHz}
-\end{equation}
-
-The corresponding wavelength is $c/\nu=21$ cm which is part of micro wave region. In a single Hydrogen atom this transition occurs once per $\approx10^{7}$ years but enormous amount of Hydrogen in spiral arms of Milky Way galaxy causes pervasive and ubiquitous forms of radiation which is observable by radio telescope.
 
 \begin{figure}
  \includegraphics[width=\columnwidth]{hyperfine}
  \caption{Illustration of the 21 cm transition of the hydrogen atom, caused by the energy change
 when the electron's spin changes from parallel with the proton's spin to antiparallel.}
  \label{fig:hyperfine_figure}
+\end{figure}  
+
+We can calculate magnetic field of proton($\mathbfit{B}$) and dipole moment of electron($\bmath{\mathit{\umu}}$) using Biot Savart law which is~(\ref{eq:biotsavart})
+
+\begin{equation}
+  \mathbfit{B}=\frac{\mathit{\umu_{0}I}}{2r}
+  \label{eq:biotsavart}
+\end{equation}
+
+Moreover magnetic field $\mathbfit{B}$ and angular momentum $\mathbfit{L}$ is in the same direction, so~(\ref{eq:mag_ang})
+
+\begin{equation}
+ \mathbfit{B}=\frac{1}{4\upi\-\epsilon_{0}}\frac{\mathit{e}}{\mathit{mc^{2}r^{3}}}
+ \label{eq:mag_ang}
+\end{equation}
+
+The direction of magnetic moment $\bmath{\mathit{\umu}}$ and spin $\mathbfit{S}$ are the same, so~(\ref{eq:mag_spin})
+
+\begin{equation}
+ \bmath{\mathit{\umu}}=\frac{\mathit{q}}{2\mathit{m}}\mathbfit{S}
+ \label{eq:mag_spin}
+\end{equation}
+
+If charge of electron is $\mathit{e}$, mass of electron is $\mathit{m_{e}}$ and spin of electron is $\mathbfit{S}_{e}$ then magnetic moment of electron is~(\ref{eq:mag_electron}),
+
+\begin{equation}
+ \mathit{\bmath{\umu}}_{e}=-\frac{\mathit{e}}{\mathit{m_{e}}}\mathbfit{S}_{e}
+ \label{eq:mag_electron}
+\end{equation}
+
+If mass of proton is $\mathit{m_{e}}$, spin of proton is ${\mathbfit{S}}_{e}$ and g-factor is $\mathbfit{g}_{p}$(measured value is 5.59) then magnetic moment of proton is~(\ref{eq:mag_proton}),
+
+\begin{equation}
+ \mathit{\bmath{\umu}}_{e}=\frac{\mathit{g}_{p}\mathit{e}}{2\mathit{m}_{p}}\mathbfit{S}_{p}
+ \label{eq:mag_proton}
+\end{equation}
+
+In accordance with classical electrodynamics magnetic field produced by dipole $\mathit{\bmath{\umu}}$ of proton sets up magnetic field~(\ref{eq:magfield_proton})
+
+\begin{equation}
+ \mathbfit{B}=\frac{\mathit{\umu}_{0}}{4\mathit{\upi}\-\mathit{r}^{3}}[3(\mathit{\bmath{\umu}}\bmath{\cdot}\mathit{\hat{r}})\mathit{\hat{r}}-\mathit{\bmath{\umu}}]+\frac{2\mathit{\umu}}{3}\mathit{\bmath{\umu}}\mathit{\delta}^{3}(\mathbfit{r})
+ \label{eq:magfield_proton}
+\end{equation}
+
+So Hamiltonian of the electron in the magnetic field due to magnetic dipole moment of proton is~(\ref{eq:dipole_proton})
+
+\begin{equation}
+\begin{split}
+ \mathbfit{H}'_{hf}=\frac{\mathit{\umu}_{0}g_{p}\mathit{e}^{2}}{8\mathit{\upi}\mathit{m}_{p}\mathit{m}_{e}}\frac{[(3\mathbfit{S}_{e}\bmath{\cdot}\mathit{\hat{r}})(\mathbfit{S}_{e}\bmath{\cdot}\mathit{\hat{r}})]-\mathbfit{S}_{p}\bmath{\cdot}\mathbfit{S}_{e}}{\mathit{r}^{3}}+\\\frac{\mathit{\umu}_{0}g_{p}\mathit{e}^{2}}{3\mathit{m}_{p}\mathit{m}_{e}}\mathbfit{S}_{p}\bmath{\cdot}\mathbf{S}_{e}\delta^{3}(\mathbfit{r})
+\end{split}
+ \label{eq:dipole_proton}  
+\end{equation}
+
+In accordance with perturbation the first order correction is the expectation value of the perturbing Hamitonian~(\ref{eq:value_hamiltonian})
+
+\begin{equation}
+\begin{split}
+ \mathit{E}_{hf}^{1}=\frac{\mathit{\umu}_{0}g_{p}\mathit{e}^{2}}{8\mathit{\upi}\mathit{m}_{p}\mathit{m}_{e}}\left\langle\frac{[(3\mathbfit{S}_{e}\bmath{\cdot}\mathit{\hat{r}})(\mathbfit{S}_{e}\bmath{\cdot}\mathit{\hat{r}})]-\mathbfit{S}_{p}\bmath{\cdot}\mathbfit{S}_{e}}{\mathit{r}^{3}}\right\rangle+\\\frac{\mathit{\umu}_{0}g_{p}\mathit{e}^{2}}{3\mathit{m}_{p}\mathit{m}_{e}}\left\langle\mathbfit{S}_{p}\bmath{\cdot}\mathbfit{S}_{e}\right\rangle\vert\mathit{\psi}\left(0\right)\vert^{2}
+\end{split}
+ \label{eq:value_hamiltonian} 
+\end{equation}
+
+In the ground state level the wave function is spherically symmetrical and the first expectation value vanishes. So we get~(\ref{eq:wave_function})
+
+\begin{equation}
+ \mathit{E}_{hf}^{1}=\frac{\mathit{\umu}_{0}g_{p}e^{2}}{3\upi\mathit{m}_{p}\mathit{m}_{e}\mathit{a}^{3}}\left\langle\mathbfit{S}_{p}\bmath{\cdot}\mathbfit{S}_{e}\right\rangle
+ \label{eq:wave_function}
+\end{equation}
+
+This is called spin-spin coupling because of the dot product of two spin $\mathbfit{S}_{p}$ and $\mathbfit{S}_{e}$. For this coupling the individual spin angular momenta are not conserved. So the good states are eigen vectors of total spin~(\ref{eq:eigen_spin})
+
+\begin{equation}
+ \mathbfit{S}\equiv\mathbfit{S}_{e}+\mathbfit{S}_{p}
+ \label{eq:eigen_spin}
+\end{equation}
+
+By applying total spin states the expected perturbation value can be written as terms of eigen operators as follows~(\ref{eq:spin_perturbation})
+
+\begin{equation}
+  \mathbfit{S}_{p}\bmath{\cdot}\mathbfit{S}_{e}=\frac{1}{2}(\mathit{S}^{2}-\mathit{S}_{e}^{2}-\mathit{S}_{p}^{2})
+  \label{eq:spin_perturbation}
+ \end{equation}
+ 
+But both of electron and proton have spin $1/2$, so\\ $\mathit{S}_{e}^{2}=\mathit{S}_{p}^{2}=(3/4)\mathit{\hbar}^{2}$. In the triplet state(parallel spins) total spin is $1$ and so $\mathit{S}^{2}=2\mathit{\hbar}^{2}$. In the singlet state total spin is $0$ and $\mathit{S}^{2}=0$. Thus~(\ref{eq:total_spin})
+
+\begin{equation}
+\label{eq:total_spin}
+ \mathit{E}_{hf}^{1}=\frac{4\mathit{g}_{p}\mathit{\hbar}^{4}}{3\mathit{m}_{p}\mathit{m}_{e}^{2}\mathit{c}^{2}\mathit{a}^{4}}\begin{cases}
+ +\frac{1}{4}& \text{(triplet)}\\
+ -\frac{3}{4}& \text{(singlet)}
+\end{cases} 
+\end{equation}
+
+The spin-spin coupling breaks the spin degeneracy of the ground state lifting the triplet configuration and depressing the singlet. The energy gap is evidently~(\ref{eq:energy_gap})
+
+\begin{equation}
+ \Delta\-E=\frac{4\mathit{g}_{p}\mathit{\hbar}^{4}}{3\mathit{m}_{p}\mathit{m}_{e}^{2}\mathit{c}^{2}\mathit{a}^{4}}=5.88\times10^{-6} eV
+ \label{eq:energy_gap}
+\end{equation}
+
+
+The frequency of the photon emitted in a transition from the triplet to the singlet state is~(\ref{eq:singlet_state}),
+
+\begin{equation}
+ \mathit{\nu}=\frac{\Delta\-E}{h}=\SI{1420}{MHz}
+ \label{eq:singlet_state}
+\end{equation}
+
+The corresponding wavelength is $c/\nu=21$ cm which is part of micro wave region. In a single Hydrogen atom this transition occurs once per $\approx10^{7}$ years but enormous amount of Hydrogen in spiral arms of Milky Way galaxy causes pervasive and ubiquitous forms of radiation which is observable by radio telescope.
+
+\subsection{Geometry of Galaxy}
+
+The simplified geometry of the Milky Way galaxy\citep{CathyHorellou2015} is as Fig.~\ref{fig:galgeo_figure}
+
+\begin{figure}
+ \includegraphics[width=\columnwidth]{galgeom}
+ \caption{Geometry of the Galaxy. C is the location of the Galactic center, S that of the Sun, M
+that of a gas cloud that we want to observe. The SM line is the line-of-sight. The arrow
+on an arc indicates the direction of rotation of the Galaxy. The arrows on line segments
+indicate the velocity of the Sun ($\mathbfit{V}_{0}$) and the gas cloud ($\mathbfit{V}$).}
+ \label{fig:galgeo_figure}
 \end{figure}
+
+There may be many Hydrogen gas clouds in this direction, but for the purpose of this derivation we only care about a single cloud located at position M in Fig.~\ref{fig:galgeo_figure}. Since both the Sun and the cloud are moving, we do not measure the cloud velocity directly. Instead, we measure the relative velocity, $\mathbfit{V}_{r}$, between the us and the cloud, projected on the line-of-sight. Since the observation of Hydrogen gas clouds located at tangential points of galactic plane at different longitudes, the radial velocity of the gas clouds can be written as~(\ref{eq:radial_velocity}),
+
+\begin{equation}
+  \mathbfit{V}_{r}=\mathbfit{V}\cos\alpha-\mathbfit{V}_{0}\sin c
+  \label{eq:radial_velocity}
+\end{equation}
+
+Where $\mathbfit{V}$ is the velocity of gas clouds and $\mathbfit{V}_{0}$ is the velocity of the Sun around galactic centre. This equation can be simplified as equation~(\ref{eq:radial_simplified}),
+
+\begin{equation}
+ \mathbfit{V}_{r}=\mathbf{V}\frac{\mathit{R}_{0}}{\mathit{R}}\sin l-\mathbfit{V}_{0}\sin l
+ \label{eq:radial_simplified}
+\end{equation} 
 
 \section{Methods, Observations, Simulations etc.}
 

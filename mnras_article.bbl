@@ -26,6 +26,12 @@ Bekhti N.~B.,  et~al., 2016, \mn@doi [Astronomy \& Astrophysics]
 C~J~Bakker H. C. v. d.~H.,  1945, Radiogolven uit het wereldruim.
 s-Gravenhage : Martinus Nijhoff
 
+\bibitem[\protect\citeauthoryear{Cathy~Horellou \& Varenius}{Cathy~Horellou \&
+  Varenius}{2015}]{CathyHorellou2015}
+Cathy~Horellou D.~J.,  Varenius E.,  2015, SALSA project documentation: Mapping
+  the Milky Way, Github, \url
+  {https://github.com/varenius/salsa/raw/master/Lab_instructions/HI/English/SALSA-HI_English.pdf}
+
 \bibitem[\protect\citeauthoryear{Christiansen \& Hindman}{Christiansen \&
   Hindman}{1952}]{christiansen1952preliminary}
 Christiansen W.~N.,  Hindman J.~V.,  1952, \mn@doi [Australian Journal of

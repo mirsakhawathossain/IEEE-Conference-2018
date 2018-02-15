@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2018.2.8)  11 FEB 2018 22:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2018.2.8)  15 FEB 2018 13:55
 entering extended mode
 **./mnras_article.tex
 (mnras_article.tex
@@ -1071,91 +1071,125 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
 (Font)              scaled to size 5.5pt on input line 113.
 
-Underfull \vbox (badness 3302) has occurred while \output is active []
-
+<hyperfine.pdf, id=64, 572.1375pt x 368.37625pt>
+File: hyperfine.pdf Graphic file (type pdf)
+ <use hyperfine.pdf>
+Package pdftex.def Info: hyperfine.pdf used on input line 118.
+(pdftex.def)             Requested size: 240.0pt x 154.52585pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <8> not available
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 120.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 8.0pt on input line 120.
+
+Underfull \vbox (badness 2941) has occurred while \output is active []
+
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
-(Font)              scaled to size 8.0pt on input line 120.
+(Font)              scaled to size 8.0pt on input line 129.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
-(Font)              scaled to size 6.2pt on input line 120.
+(Font)              scaled to size 6.2pt on input line 129.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.2pt on input line 120.
+(Font)              scaled to size 6.2pt on input line 129.
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 120.
+(Font)              scaled to size 8.0pt on input line 129.
  [1{D:/Latex_Portable/texmfs/data/pdftex/config/pdftex.map}
 
 
 ]
-<hyperfine.pdf, id=98, 572.1375pt x 368.37625pt>
-File: hyperfine.pdf Graphic file (type pdf)
- <use hyperfine.pdf>
-Package pdftex.def Info: hyperfine.pdf used on input line 211.
-(pdftex.def)             Requested size: 240.0pt x 154.52585pt.
+<galgeom.pdf, id=121, 225.84375pt x 229.85875pt>
+File: galgeom.pdf Graphic file (type pdf)
+ <use galgeom.pdf>
+Package pdftex.def Info: galgeom.pdf used on input line 237.
+(pdftex.def)             Requested size: 240.0pt x 244.28041pt.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 8.0pt on input line 241.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 6.2pt on input line 241.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/it' in size <8> not available
+(Font)              Font shape `T1/ntxtlf/b/it' tried instead on input line 241
+.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
+(Font)              scaled to size 8.0pt on input line 241.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 232.
+(Font)              scaled to size 12.0pt on input line 246.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 232.
+(Font)              scaled to size 12.0pt on input line 246.
  [2pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.232 \end{equation}
-                     <./hyperfine.pdf>]
-<example.png, id=136, 481.8pt x 361.35pt>
+l.246 
+       <./hyperfine.pdf>] <example.png, id=165, 481.8pt x 361.35pt>
 File: example.png Graphic file (type png)
- <use example.png>
-Package pdftex.def Info: example.png used on input line 249.
+
+<use example.png>
+Package pdftex.def Info: example.png used on input line 291.
 (pdftex.def)             Requested size: 240.0pt x 179.99637pt.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.0pt on input line 262.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 6.2pt on input line 262.
  (mnras_article.bbl
-LaTeX Font Info:    Try loading font information for T1+aett on input line 36.
+LaTeX Font Info:    Try loading font information for T1+aett on input line 33.
 
 (D:\Latex_Portable\texmfs\install\tex\latex\ae\t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
-))
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 324.
- [3pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
- has been already used, duplicate ignored
+)
+Underfull \hbox (badness 3758) in paragraph at lines 31--34
+\T1/ntxtlf/m/n/8 ta-tion: Map-ping the Milky Way, Github, [][]$\T1/aett/m/n/8 h
+ttps : / / github .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--34
+\T1/aett/m/n/8 com / varenius / salsa / raw / master / Lab _ instructions / HI 
+/
+ []
+
+[3pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
+has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.324 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{table.1}) has been already used, duplicate ignored
+l.40 ...n et~al.,}{Doran et~al.}{2007}]{Doran2007}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{figure.3}) has been already used, duplicat
+e ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.324 \end{document}
-                     <./example.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 324.
+l.40 ...n et~al.,}{Doran et~al.}{2007}]{Doran2007}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{table.1}) has been already used, duplicate
+ ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.40 ...n et~al.,}{Doran et~al.}{2007}]{Doran2007}
+                                                   <./galgeom.pdf> <./example.p
+ng>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 366.
+ [4
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 366.
  (mnras_article.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 324.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 324.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 366.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 366.
 Package rerunfilecheck Info: File `mnras_article.out' has not changed.
-(rerunfilecheck)             Checksum: 1A4499B5AC6752DC43DA21604A8A88B9;472.
+(rerunfilecheck)             Checksum: 7A24B84492302E62EE4D259EB5182C45;540.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.97499pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 324.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 366.
  ) 
 Here is how much of TeX's memory you used:
- 10124 strings out of 495222
- 141747 string characters out of 3181578
- 228272 words of memory out of 3000000
- 13126 multiletter control sequences out of 15000+200000
- 204759 words of font info for 289 fonts, out of 3000000 for 9000
+ 10163 strings out of 495222
+ 142401 string characters out of 3181578
+ 228626 words of memory out of 3000000
+ 13158 multiletter control sequences out of 15000+200000
+ 213175 words of font info for 292 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 35i,15n,37p,2263b,374s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 35i,15n,37p,2263b,494s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1179,9 +1213,9 @@ blic/newtx/txbsys.pfb><D:/Latex_Portable/texmfs/install/fonts/type1/public/newt
 x/txexs.pfb><D:/Latex_Portable/texmfs/install/fonts/type1/public/txfonts/txmia.
 pfb><D:/Latex_Portable/texmfs/install/fonts/type1/public/newtx/txsys.pfb><D:/La
 tex_Portable/texmfs/install/fonts/type1/urw/times/utmri8a.pfb>
-Output written on mnras_article.pdf (3 pages, 215755 bytes).
+Output written on mnras_article.pdf (4 pages, 239688 bytes).
 PDF statistics:
- 232 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
- 75 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 307 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 

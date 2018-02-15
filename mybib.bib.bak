@@ -163,7 +163,7 @@
 }
 
 @Misc{CathyHorellou2015,
-  author       = {Cathy Horellou, Daniel Johansson and Eskil Varenius},
+  author       = {Cathy Horellou, Daniel Johansson \& Eskil Varenius},
   title        = {SALSA project documentation: Mapping the Milky Way},
   howpublished = {Github},
   month        = dec,
