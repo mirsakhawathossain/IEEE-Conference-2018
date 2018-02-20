@@ -44,6 +44,7 @@
 \usepackage{amsmath}	% Advanced maths commands
 \usepackage{amssymb}	% Extra maths symbols
 \usepackage{sistyle}    %SI unit style
+\usepackage{romannum}   %Roman numbering style
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%% AUTHORS - PLACE YOUR OWN COMMANDS HERE %%%%%
@@ -255,6 +256,48 @@ Where $\mathbfit{V}$ is the velocity of gas clouds and $\mathbfit{V}_{0}$ is the
  \mathbfit{V}_{r}=\mathbf{V}\frac{\mathit{R}_{0}}{\mathit{R}}\sin l-\mathbfit{V}_{0}\sin l
  \label{eq:radial_simplified}
 \end{equation} 
+
+This equation is for all galactic longitude $\mathit{l}$. Here $\mathit{R}_{0}$ is distance between Sun and galactic centre, $\mathit{R}$ is distance between \ion{H}{I} gas cloud and galactic centre. We now assume that gas in Milky Way obeys differential rotation, i.e. the rotational speed is constant with radius and is the same as the rotational speed of the Sun, i.e. equation~(\ref{eq:radial_constant})
+
+\begin{equation}
+ \mathbfit{V}_{r}=Constant=\mathbfit{V}_{0}
+ \label{eq:radial_constant}
+\end{equation}
+
+With this assumption we can write from equation~(\ref{eq:radial_simplified}) we can simplify as a function of cloud distance $\mathit{R}$ and $\mathbfit{V}_{r}$  as follows equation~(\ref{eq:distance_cloud})
+
+\begin{equation}
+ \mathit{R}=\frac{\mathit{R}_{0}\mathbfit{V}_{0}\sin l}{\mathbfit{V}_{0}\sin l+\mathbfit{V}_{r}}
+ \label{eq:distance_cloud}
+\end{equation}
+
+From measurement of radial velocity $\mathbfit{V}_{r}$ we have calculated distance of gas cloud to the galactic centre. With the assumption of $\mathit{R}_{0}=8.5$\,kpc and $\mathbfit{V}_{0}=220$\,km\,s$^{-1}$, we can calculate value of $\mathit{R}$ for different values of galactic longitude $\mathit{l}$. From Fig.~\ref{fig:galgeo_figure} we see that in the Quadrants \Romannum{1} or \Romannum{4} there can be there may be two possible locations corresponding to given values of $\mathit{l}$ and $\mathit{R}$ to us than the tangential point T (the actual point M on the Fig.~\ref{fig:galgeo_figure}), or farther away, at the intersection of the ST line and the inner circle. But in the Quadrants \Romannum{2} or \Romannum{3} position of the emitting gas clouds can be determined uniquely\citep{CathyHorellou2015}. By the law of cosine in triangle in \textbf{CSM} we have equation~(\ref{eq:cosine_theory}),
+
+\begin{equation}
+ \mathit{R}^{2}=\mathit{R}_{0}^{2}+\mathit{r}^{2}-2\mathit{R}_{0}\mathit{r}\cos l
+ \label{eq:cosine_theory}
+\end{equation}
+
+This is a second-order equation in $\mathit{r}$ where $\mathit{r}$ is distance to cloud from the Sun. The above equation has two possible solutions $\mathit{r}=\mathit{r}_{+}$ and $\mathit{r}=\mathit{r}_{-}$ that can be written as~(\ref{eq:cosine_solution})
+
+\begin{equation}
+ \mathit{r}\pm=\pm\sqrt{\mathit{R}^{2}-\mathit{R}_{0}^{2}\sin^{2} l}+\mathit{R}_{0}\cos l
+ \label{eq:cosine_solution}
+\end{equation}
+
+From equation~(\ref{eq:cosine_solution}) we will discard two positive and one negative values. For convenient way of plotting to map the Milky Way structure, we convert the polar coordinate positions given as $\mathit{r}$ and $\mathit{l}$ to Cartesian $\bmath{x-y}$ coordinates using single positive values by~\ref{eqn:rpmtocart}
+
+\begin{equation}
+\left\lbrace
+\begin{array}{l}
+	x=r \cos (l-90\degr) \\
+	y=r \sin (l-90\degr) \\
+\end{array}
+\right.
+\label{eqn:rpmtocart}
+\end{equation}
+
+By calculating the value of $\bmath{x}$ and $\bmath{y}$ for different velocities at different galactic longitudes $\mathit{l}$ in a graph to plot the map of Milky Way galaxy.
 
 \section{Methods, Observations, Simulations etc.}
 
