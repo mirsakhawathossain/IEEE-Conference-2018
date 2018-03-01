@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2018.2.8)  19 FEB 2018 13:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2018.2.8)  1 MAR 2018 13:22
 entering extended mode
 **./mnras_article.tex
 (mnras_article.tex
@@ -750,67 +750,67 @@ Package: romannum 2009/09/03 v1.0b roman numerals
 (D:\Latex_Portable\texmfs\install\tex\latex\stdclsdv\stdclsdv.sty
 Package: stdclsdv 2009/09/04 v1.1a Sectional divisions
 ))
-LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 84
+LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 85
 .
 
 (D:\Latex_Portable\texmfs\install\tex\latex\newtx\t1ntxtlf.fd
 File: t1ntxtlf.fd 2015/01/17 v1.0 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.0pt on input line 84.
+(Font)              scaled to size 9.0pt on input line 85.
 
 (mnras_article.aux)
 \openout1 = `mnras_article.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 84.
-LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 84
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 85.
+LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 85
 .
 
 (D:\Latex_Portable\texmfs\install\tex\latex\newtx\omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 84.
-LaTeX Font Info:    Try loading font information for U+ntxexa on input line 84.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 85.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 85.
 
 
 (D:\Latex_Portable\texmfs\install\tex\latex\newtx\untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 84.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 85.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 85.
 
 (D:\Latex_Portable\texmfs\install\tex\latex\base\ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 84.
-LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 84
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 85.
+LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 85
 .
 
 (D:\Latex_Portable\texmfs\install\tex\latex\newtx\lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 85.
 LaTeX Font Info:    Try loading font information for LMX+ntxexx on input line 8
-4.
+5.
 
 (D:\Latex_Portable\texmfs\install\tex\latex\newtx\lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    ... okay on input line 85.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -855,7 +855,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-Package hyperref Info: Link coloring ON on input line 84.
+Package hyperref Info: Link coloring ON on input line 85.
 
 (D:\Latex_Portable\texmfs\install\tex\latex\hyperref\nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -865,9 +865,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count116
 )
-LaTeX Info: Redefining \ref on input line 84.
-LaTeX Info: Redefining \pageref on input line 84.
-LaTeX Info: Redefining \nameref on input line 84.
+LaTeX Info: Redefining \ref on input line 85.
+LaTeX Info: Redefining \pageref on input line 85.
+LaTeX Info: Redefining \nameref on input line 85.
 
 (mnras_article.out) (mnras_article.out)
 \@outlinefile=\write3
@@ -903,248 +903,592 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 LaTeX Font Info:    Try loading font information for OT1+ntxtlf on input line 8
-4.
+5.
 
 (D:\Latex_Portable\texmfs\install\tex\latex\newtx\ot1ntxtlf.fd
 File: ot1ntxtlf.fd 2015/01/17 v1.0 font definition file for OT1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.0pt on input line 84.
+(Font)              scaled to size 9.0pt on input line 85.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 84.
+(Font)              scaled to size 7.3pt on input line 85.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.5pt on input line 84.
+(Font)              scaled to size 5.5pt on input line 85.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 84.
+(Font)              size <5> substituted on input line 85.
 
-LaTeX Font Info:    Try loading font information for U+ntxmia on input line 84.
+LaTeX Font Info:    Try loading font information for U+ntxmia on input line 85.
 
 (D:\Latex_Portable\texmfs\install\tex\latex\newtx\untxmia.fd
 File: untxmia.fd 2016/01/31 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsym on input line 84.
+LaTeX Font Info:    Try loading font information for U+ntxsym on input line 85.
 
 
 (D:\Latex_Portable\texmfs\install\tex\latex\newtx\untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 84.
+LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 85.
 
 
 (D:\Latex_Portable\texmfs\install\tex\latex\newtx\untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 84.
+LaTeX Font Info:    Try loading font information for U+msa on input line 85.
 
 (D:\Latex_Portable\texmfs\install\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 84.
+LaTeX Font Info:    Try loading font information for U+msb on input line 85.
 
 (D:\Latex_Portable\texmfs\install\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for T1+qhv on input line 84.
+LaTeX Font Info:    Try loading font information for T1+qhv on input line 85.
 
 (D:\Latex_Portable\texmfs\install\tex\latex\tex-gyre\t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 8.09995pt on input line 84.
+(Font)              scaled to size 8.09995pt on input line 85.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 6.56995pt on input line 84.
+(Font)              scaled to size 6.56995pt on input line 85.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 4.94997pt on input line 84.
-LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 84.
+(Font)              scaled to size 4.94997pt on input line 85.
+LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 85.
 
 
 (D:\Latex_Portable\texmfs\install\tex\latex\newtx\t1ntxtt.fd
 File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 9.0pt on input line 84.
+(Font)              scaled to size 9.0pt on input line 85.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 7.3pt on input line 84.
+(Font)              scaled to size 7.3pt on input line 85.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 5.5pt on input line 84.
+(Font)              scaled to size 5.5pt on input line 85.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 87.
+(Font)              scaled to size 17.28pt on input line 88.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 87.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 88.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 17.28pt on input line 87.
+(Font)              scaled to size 17.28pt on input line 88.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 87.
+(Font)              scaled to size 14.4pt on input line 88.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 87.
+(Font)              scaled to size 14.4pt on input line 88.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.5pt on input line 87.
+(Font)              scaled to size 10.5pt on input line 88.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.9pt on input line 87.
+(Font)              scaled to size 7.9pt on input line 88.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 12.9599pt on input line 87.
+(Font)              scaled to size 12.9599pt on input line 88.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 9.44994pt on input line 87.
+(Font)              scaled to size 9.44994pt on input line 88.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 7.10994pt on input line 87.
+(Font)              scaled to size 7.10994pt on input line 88.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 14.4pt on input line 87.
+(Font)              scaled to size 14.4pt on input line 88.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 10.5pt on input line 87.
+(Font)              scaled to size 10.5pt on input line 88.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 7.9pt on input line 87.
+(Font)              scaled to size 7.9pt on input line 88.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 87.
+(Font)              size <10.95> substituted on input line 88.
 
 LaTeX Font Info:    Try loading font information for T1+ntxsups on input line 8
-7.
+8.
 (D:\Latex_Portable\texmfs\install\tex\latex\newtx\t1ntxsups.fd
 File: t1ntxsups.fd 2015/01/17 v1.0
 )
 LaTeX Font Info:    Font shape `T1/ntxsups/m/n' will be
-(Font)              scaled to size 14.4pt on input line 87.
+(Font)              scaled to size 14.4pt on input line 88.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 87.
+(Font)              scaled to size 8.0pt on input line 88.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 8.0pt on input line 87.
+(Font)              scaled to size 8.0pt on input line 88.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 87.
+(Font)              scaled to size 8.0pt on input line 88.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.2pt on input line 87.
+(Font)              scaled to size 6.2pt on input line 88.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 87.
+(Font)              scaled to size 7.19995pt on input line 88.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 5.57996pt on input line 87.
+(Font)              scaled to size 5.57996pt on input line 88.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 8.0pt on input line 87.
+(Font)              scaled to size 8.0pt on input line 88.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 6.2pt on input line 87.
+(Font)              scaled to size 6.2pt on input line 88.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <9> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 90.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 91.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 9.0pt on input line 90.
+(Font)              scaled to size 9.0pt on input line 91.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 90.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 91.
-LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 91.
-LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 91.
-LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 96.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.0pt on input line 96.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 9.0pt on input line 105.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 105.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.5pt on input line 105.
-LaTeX Font Info:    Try loading font information for TS1+ntxtlf on input line 1
-05.
 
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+
+ []
+
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.0pt on input line 93.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 93.
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 10.0pt on input line 93.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 98.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 10.0pt on input line 98.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
+(Font)              scaled to size 9.0pt on input line 108.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 7.3pt on input line 108.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 5.5pt on input line 108.
+LaTeX Font Info:    Try loading font information for TS1+ntxtlf on input line 1
+08.
 (D:\Latex_Portable\texmfs\install\tex\latex\newtx\ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.0pt on input line 105.
+(Font)              scaled to size 9.0pt on input line 108.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/it' in size <9> not available
-(Font)              Font shape `T1/ntxtlf/b/it' tried instead on input line 111
+(Font)              Font shape `T1/ntxtlf/b/it' tried instead on input line 114
 .
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
-(Font)              scaled to size 9.0pt on input line 111.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 9.0pt on input line 111.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 7.3pt on input line 111.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 5.5pt on input line 111.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/it' will be
-(Font)              scaled to size 9.0pt on input line 111.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/it' will be
-(Font)              scaled to size 7.3pt on input line 111.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/it' will be
-(Font)              scaled to size 5.5pt on input line 111.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
 (Font)              scaled to size 9.0pt on input line 114.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 9.0pt on input line 114.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 (Font)              scaled to size 7.3pt on input line 114.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 (Font)              scaled to size 5.5pt on input line 114.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/it' will be
+(Font)              scaled to size 9.0pt on input line 114.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/it' will be
+(Font)              scaled to size 7.3pt on input line 114.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/it' will be
+(Font)              scaled to size 5.5pt on input line 114.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
+(Font)              scaled to size 9.0pt on input line 117.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
+(Font)              scaled to size 7.3pt on input line 117.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
+(Font)              scaled to size 5.5pt on input line 117.
 
-<hyperfine.pdf, id=64, 572.1375pt x 368.37625pt>
+<hyperfine.pdf, id=72, 572.1375pt x 368.37625pt>
 File: hyperfine.pdf Graphic file (type pdf)
  <use hyperfine.pdf>
-Package pdftex.def Info: hyperfine.pdf used on input line 119.
+Package pdftex.def Info: hyperfine.pdf used on input line 122.
 (pdftex.def)             Requested size: 240.0pt x 154.52585pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <8> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 121.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 124.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.0pt on input line 121.
-
-Underfull \vbox (badness 2941) has occurred while \output is active []
-
+(Font)              scaled to size 8.0pt on input line 124.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
-(Font)              scaled to size 8.0pt on input line 130.
+(Font)              scaled to size 8.0pt on input line 133.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
-(Font)              scaled to size 6.2pt on input line 130.
+(Font)              scaled to size 6.2pt on input line 133.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.2pt on input line 130.
+(Font)              scaled to size 6.2pt on input line 133.
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 130.
+(Font)              scaled to size 8.0pt on input line 133.
  [1{D:/Latex_Portable/texmfs/data/pdftex/config/pdftex.map}
 
 
 ]
-<galgeom.pdf, id=121, 225.84375pt x 229.85875pt>
+<galgeom.pdf, id=129, 225.84375pt x 229.85875pt>
 File: galgeom.pdf Graphic file (type pdf)
  <use galgeom.pdf>
-Package pdftex.def Info: galgeom.pdf used on input line 238.
+Package pdftex.def Info: galgeom.pdf used on input line 241.
 (pdftex.def)             Requested size: 240.0pt x 244.28041pt.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.0pt on input line 242.
+(Font)              scaled to size 8.0pt on input line 245.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 6.2pt on input line 242.
+(Font)              scaled to size 6.2pt on input line 245.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/it' in size <8> not available
-(Font)              Font shape `T1/ntxtlf/b/it' tried instead on input line 242
+(Font)              Font shape `T1/ntxtlf/b/it' tried instead on input line 245
 .
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
-(Font)              scaled to size 8.0pt on input line 242.
+(Font)              scaled to size 8.0pt on input line 245.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 247.
+(Font)              scaled to size 12.0pt on input line 250.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 247.
+(Font)              scaled to size 12.0pt on input line 250.
  [2pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.247 
-       <./hyperfine.pdf>] <example.png, id=176, 481.8pt x 361.35pt>
-File: example.png Graphic file (type png)
+l.250 
+       <./hyperfine.pdf>] [3pdfTeX warning (ext4): destination with the same id
+entifier (name{figure.2}) has been already used, duplicate ignored
 
-<use example.png>
-Package pdftex.def Info: example.png used on input line 334.
-(pdftex.def)             Requested size: 240.0pt x 179.99637pt.
- [3pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.319 
+       <./galgeom.pdf>]
+Package epstopdf Info: Source file: <Map_1.eps>
+(epstopdf)                    date: 2018-02-25 13:47:23
+(epstopdf)                    size: 69010 bytes
+(epstopdf)             Output file: <Map_1-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-03-01 11:28:25
+(epstopdf)                    size: 17761 bytes
+(epstopdf)             Command: <epstopdf --outfile=Map_1-eps-converted-to.pdf 
+Map_1.eps>
+(epstopdf)             \includegraphics on input line 332.
+Package epstopdf Info: Output file is already uptodate.
+
+<Map_1-eps-converted-to.pdf, id=245, 296.10625pt x 305.14pt>
+File: Map_1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Map_1-eps-converted-to.pdf>
+Package pdftex.def Info: Map_1-eps-converted-to.pdf used on input line 332.
+(pdftex.def)             Requested size: 240.0pt x 247.32965pt.
+Package epstopdf Info: Source file: <Map_2.eps>
+(epstopdf)                    date: 2018-02-25 13:49:02
+(epstopdf)                    size: 61580 bytes
+(epstopdf)             Output file: <Map_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-03-01 11:28:26
+(epstopdf)                    size: 15730 bytes
+(epstopdf)             Command: <epstopdf --outfile=Map_2-eps-converted-to.pdf 
+Map_2.eps>
+(epstopdf)             \includegraphics on input line 338.
+Package epstopdf Info: Output file is already uptodate.
+
+<Map_2-eps-converted-to.pdf, id=246, 296.10625pt x 305.14pt>
+File: Map_2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Map_2-eps-converted-to.pdf>
+Package pdftex.def Info: Map_2-eps-converted-to.pdf used on input line 338.
+(pdftex.def)             Requested size: 240.0pt x 247.32965pt.
+Package epstopdf Info: Source file: <Map_3.eps>
+(epstopdf)                    date: 2018-02-25 13:50:06
+(epstopdf)                    size: 55594 bytes
+(epstopdf)             Output file: <Map_3-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-03-01 11:28:28
+(epstopdf)                    size: 13674 bytes
+(epstopdf)             Command: <epstopdf --outfile=Map_3-eps-converted-to.pdf 
+Map_3.eps>
+(epstopdf)             \includegraphics on input line 344.
+Package epstopdf Info: Output file is already uptodate.
+
+<Map_3-eps-converted-to.pdf, id=247, 296.10625pt x 305.14pt>
+File: Map_3-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Map_3-eps-converted-to.pdf>
+Package pdftex.def Info: Map_3-eps-converted-to.pdf used on input line 344.
+(pdftex.def)             Requested size: 240.0pt x 247.32965pt.
+Package epstopdf Info: Source file: <Map_4.eps>
+(epstopdf)                    date: 2018-02-25 13:51:19
+(epstopdf)                    size: 39415 bytes
+(epstopdf)             Output file: <Map_4-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-03-01 11:28:30
+(epstopdf)                    size: 9252 bytes
+(epstopdf)             Command: <epstopdf --outfile=Map_4-eps-converted-to.pdf 
+Map_4.eps>
+(epstopdf)             \includegraphics on input line 350.
+Package epstopdf Info: Output file is already uptodate.
+
+<Map_4-eps-converted-to.pdf, id=248, 296.10625pt x 305.14pt>
+File: Map_4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Map_4-eps-converted-to.pdf>
+Package pdftex.def Info: Map_4-eps-converted-to.pdf used on input line 350.
+(pdftex.def)             Requested size: 240.0pt x 247.32965pt.
+Package epstopdf Info: Source file: <Map_5.eps>
+(epstopdf)                    date: 2018-02-25 13:52:21
+(epstopdf)                    size: 40067 bytes
+(epstopdf)             Output file: <Map_5-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-03-01 11:28:31
+(epstopdf)                    size: 9395 bytes
+(epstopdf)             Command: <epstopdf --outfile=Map_5-eps-converted-to.pdf 
+Map_5.eps>
+(epstopdf)             \includegraphics on input line 356.
+Package epstopdf Info: Output file is already uptodate.
+
+<Map_5-eps-converted-to.pdf, id=249, 296.10625pt x 305.14pt>
+File: Map_5-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Map_5-eps-converted-to.pdf>
+Package pdftex.def Info: Map_5-eps-converted-to.pdf used on input line 356.
+(pdftex.def)             Requested size: 240.0pt x 247.32965pt.
+Package epstopdf Info: Source file: <Map_6.eps>
+(epstopdf)                    date: 2018-02-25 13:53:26
+(epstopdf)                    size: 35211 bytes
+(epstopdf)             Output file: <Map_6-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-03-01 11:28:33
+(epstopdf)                    size: 8101 bytes
+(epstopdf)             Command: <epstopdf --outfile=Map_6-eps-converted-to.pdf 
+Map_6.eps>
+(epstopdf)             \includegraphics on input line 362.
+Package epstopdf Info: Output file is already uptodate.
+
+<Map_6-eps-converted-to.pdf, id=250, 296.10625pt x 305.14pt>
+File: Map_6-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Map_6-eps-converted-to.pdf>
+Package pdftex.def Info: Map_6-eps-converted-to.pdf used on input line 362.
+(pdftex.def)             Requested size: 240.0pt x 247.32965pt.
+Package epstopdf Info: Source file: <Map_7.eps>
+(epstopdf)                    date: 2018-02-25 13:54:53
+(epstopdf)                    size: 31329 bytes
+(epstopdf)             Output file: <Map_7-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-03-01 11:28:35
+(epstopdf)                    size: 7081 bytes
+(epstopdf)             Command: <epstopdf --outfile=Map_7-eps-converted-to.pdf 
+Map_7.eps>
+(epstopdf)             \includegraphics on input line 368.
+Package epstopdf Info: Output file is already uptodate.
+
+<Map_7-eps-converted-to.pdf, id=251, 296.10625pt x 305.14pt>
+File: Map_7-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Map_7-eps-converted-to.pdf>
+Package pdftex.def Info: Map_7-eps-converted-to.pdf used on input line 368.
+(pdftex.def)             Requested size: 240.0pt x 247.32965pt.
+Package epstopdf Info: Source file: <Map_8.eps>
+(epstopdf)                    date: 2018-02-25 13:55:44
+(epstopdf)                    size: 22106 bytes
+(epstopdf)             Output file: <Map_8-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-03-01 11:28:37
+(epstopdf)                    size: 4592 bytes
+(epstopdf)             Command: <epstopdf --outfile=Map_8-eps-converted-to.pdf 
+Map_8.eps>
+(epstopdf)             \includegraphics on input line 374.
+Package epstopdf Info: Output file is already uptodate.
+
+<Map_8-eps-converted-to.pdf, id=252, 296.10625pt x 305.14pt>
+File: Map_8-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Map_8-eps-converted-to.pdf>
+Package pdftex.def Info: Map_8-eps-converted-to.pdf used on input line 374.
+(pdftex.def)             Requested size: 240.0pt x 247.32965pt.
+Package epstopdf Info: Source file: <RotationCurve_1.eps>
+(epstopdf)                    date: 2018-02-25 13:47:36
+(epstopdf)                    size: 22211 bytes
+(epstopdf)             Output file: <RotationCurve_1-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-03-01 11:50:25
+(epstopdf)                    size: 4853 bytes
+(epstopdf)             Command: <epstopdf --outfile=RotationCurve_1-eps-convert
+ed-to.pdf RotationCurve_1.eps>
+(epstopdf)             \includegraphics on input line 382.
+Package epstopdf Info: Output file is already uptodate.
+
+<RotationCurve_1-eps-converted-to.pdf, id=271, 366.36874pt x 305.14pt>
+File: RotationCurve_1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use RotationCurve_1-eps-converted-to.pdf>
+Package pdftex.def Info: RotationCurve_1-eps-converted-to.pdf used on input lin
+e 382.
+(pdftex.def)             Requested size: 240.0pt x 199.89375pt.
+Package epstopdf Info: Source file: <RotationCurve_2.eps>
+(epstopdf)                    date: 2018-02-25 13:49:09
+(epstopdf)                    size: 21869 bytes
+(epstopdf)             Output file: <RotationCurve_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-03-01 11:50:26
+(epstopdf)                    size: 4779 bytes
+(epstopdf)             Command: <epstopdf --outfile=RotationCurve_2-eps-convert
+ed-to.pdf RotationCurve_2.eps>
+(epstopdf)             \includegraphics on input line 388.
+Package epstopdf Info: Output file is already uptodate.
+
+<RotationCurve_2-eps-converted-to.pdf, id=272, 366.36874pt x 305.14pt>
+File: RotationCurve_2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use RotationCurve_2-eps-converted-to.pdf>
+Package pdftex.def Info: RotationCurve_2-eps-converted-to.pdf used on input lin
+e 388.
+(pdftex.def)             Requested size: 240.0pt x 199.89375pt.
+Package epstopdf Info: Source file: <RotationCurve_3.eps>
+(epstopdf)                    date: 2018-02-25 13:50:14
+(epstopdf)                    size: 22563 bytes
+(epstopdf)             Output file: <RotationCurve_3-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-03-01 11:50:28
+(epstopdf)                    size: 4971 bytes
+(epstopdf)             Command: <epstopdf --outfile=RotationCurve_3-eps-convert
+ed-to.pdf RotationCurve_3.eps>
+(epstopdf)             \includegraphics on input line 394.
+Package epstopdf Info: Output file is already uptodate.
+
+<RotationCurve_3-eps-converted-to.pdf, id=273, 366.36874pt x 305.14pt>
+File: RotationCurve_3-eps-converted-to.pdf Graphic file (type pdf)
+
+<use RotationCurve_3-eps-converted-to.pdf>
+Package pdftex.def Info: RotationCurve_3-eps-converted-to.pdf used on input lin
+e 394.
+(pdftex.def)             Requested size: 240.0pt x 199.89375pt.
+Package epstopdf Info: Source file: <RotationCurve_4.eps>
+(epstopdf)                    date: 2018-02-25 13:51:30
+(epstopdf)                    size: 22039 bytes
+(epstopdf)             Output file: <RotationCurve_4-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-03-01 11:50:30
+(epstopdf)                    size: 4843 bytes
+(epstopdf)             Command: <epstopdf --outfile=RotationCurve_4-eps-convert
+ed-to.pdf RotationCurve_4.eps>
+(epstopdf)             \includegraphics on input line 400.
+Package epstopdf Info: Output file is already uptodate.
+
+<RotationCurve_4-eps-converted-to.pdf, id=274, 366.36874pt x 305.14pt>
+File: RotationCurve_4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use RotationCurve_4-eps-converted-to.pdf>
+Package pdftex.def Info: RotationCurve_4-eps-converted-to.pdf used on input lin
+e 400.
+(pdftex.def)             Requested size: 240.0pt x 199.89375pt.
+Package epstopdf Info: Source file: <RotationCurve_5.eps>
+(epstopdf)                    date: 2018-02-25 13:52:27
+(epstopdf)                    size: 21353 bytes
+(epstopdf)             Output file: <RotationCurve_5-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-03-01 11:50:31
+(epstopdf)                    size: 4647 bytes
+(epstopdf)             Command: <epstopdf --outfile=RotationCurve_5-eps-convert
+ed-to.pdf RotationCurve_5.eps>
+(epstopdf)             \includegraphics on input line 406.
+Package epstopdf Info: Output file is already uptodate.
+
+<RotationCurve_5-eps-converted-to.pdf, id=275, 366.36874pt x 305.14pt>
+File: RotationCurve_5-eps-converted-to.pdf Graphic file (type pdf)
+
+<use RotationCurve_5-eps-converted-to.pdf>
+Package pdftex.def Info: RotationCurve_5-eps-converted-to.pdf used on input lin
+e 406.
+(pdftex.def)             Requested size: 240.0pt x 199.89375pt.
+Package epstopdf Info: Source file: <RotationCurve_6.eps>
+(epstopdf)                    date: 2018-02-25 13:53:31
+(epstopdf)                    size: 19960 bytes
+(epstopdf)             Output file: <RotationCurve_6-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-03-01 11:50:33
+(epstopdf)                    size: 4244 bytes
+(epstopdf)             Command: <epstopdf --outfile=RotationCurve_6-eps-convert
+ed-to.pdf RotationCurve_6.eps>
+(epstopdf)             \includegraphics on input line 412.
+Package epstopdf Info: Output file is already uptodate.
+
+<RotationCurve_6-eps-converted-to.pdf, id=276, 366.36874pt x 305.14pt>
+File: RotationCurve_6-eps-converted-to.pdf Graphic file (type pdf)
+
+<use RotationCurve_6-eps-converted-to.pdf>
+Package pdftex.def Info: RotationCurve_6-eps-converted-to.pdf used on input lin
+e 412.
+(pdftex.def)             Requested size: 240.0pt x 199.89375pt.
+Package epstopdf Info: Source file: <RotationCurve_7.eps>
+(epstopdf)                    date: 2018-02-25 13:54:58
+(epstopdf)                    size: 19268 bytes
+(epstopdf)             Output file: <RotationCurve_7-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-03-01 11:50:35
+(epstopdf)                    size: 4034 bytes
+(epstopdf)             Command: <epstopdf --outfile=RotationCurve_7-eps-convert
+ed-to.pdf RotationCurve_7.eps>
+(epstopdf)             \includegraphics on input line 418.
+Package epstopdf Info: Output file is already uptodate.
+
+<RotationCurve_7-eps-converted-to.pdf, id=277, 366.36874pt x 305.14pt>
+File: RotationCurve_7-eps-converted-to.pdf Graphic file (type pdf)
+
+<use RotationCurve_7-eps-converted-to.pdf>
+Package pdftex.def Info: RotationCurve_7-eps-converted-to.pdf used on input lin
+e 418.
+(pdftex.def)             Requested size: 240.0pt x 199.89375pt.
+Package epstopdf Info: Source file: <RotationCurve_8.eps>
+(epstopdf)                    date: 2018-02-25 13:55:52
+(epstopdf)                    size: 18054 bytes
+(epstopdf)             Output file: <RotationCurve_8-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-03-01 11:50:37
+(epstopdf)                    size: 3578 bytes
+(epstopdf)             Command: <epstopdf --outfile=RotationCurve_8-eps-convert
+ed-to.pdf RotationCurve_8.eps>
+(epstopdf)             \includegraphics on input line 424.
+Package epstopdf Info: Output file is already uptodate.
+
+<RotationCurve_8-eps-converted-to.pdf, id=278, 366.36874pt x 305.14pt>
+File: RotationCurve_8-eps-converted-to.pdf Graphic file (type pdf)
+
+<use RotationCurve_8-eps-converted-to.pdf>
+Package pdftex.def Info: RotationCurve_8-eps-converted-to.pdf used on input lin
+e 424.
+(pdftex.def)             Requested size: 240.0pt x 199.89375pt.
+ [4pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.364 \section
-              *{Acknowledgements}pdfTeX warning (ext4): destination with the sa
-me identifier (name{table.1}) has been already used, duplicate ignored
+l.432 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.364 \section
-              *{Acknowledgements} <./galgeom.pdf>] (mnras_article.bbl
+l.432 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.432 
+       <./Map_1-eps-converted-to.pdf> <./Map_2-eps-converted-to.pdf> <./Map_3-e
+ps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.436 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.436 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.436 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.436 
+       <./Map_4-eps-converted-to.pdf> <./Map_5-eps-converted-to.pdf> <./Map_6-e
+ps-converted-to.pdf> <./Map_7-eps-converted-to.pdf>] (mnras_article.bbl
+[6pdfTeX warning (ext4): destination with the same identifier (name{figure.10})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \begin{thebibliography}{}
+                             pdfTeX warning (ext4): destination with the same i
+dentifier (name{figure.11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \begin{thebibliography}{}
+                             pdfTeX warning (ext4): destination with the same i
+dentifier (name{figure.12}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \begin{thebibliography}{}
+                             pdfTeX warning (ext4): destination with the same i
+dentifier (name{figure.13}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \begin{thebibliography}{}
+                              <./Map_8-eps-converted-to.pdf> <./RotationCurve_1
+-eps-converted-to.pdf> <./RotationCurve_2-eps-converted-to.pdf> <./RotationCurv
+e_3-eps-converted-to.pdf>]
 LaTeX Font Info:    Try loading font information for T1+aett on input line 33.
 
 (D:\Latex_Portable\texmfs\install\tex\latex\ae\t1aett.fd
@@ -1161,36 +1505,70 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--34
 /
  []
 
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 409.
- [4pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
+
+Underfull \hbox (badness 5490) in paragraph at lines 41--43
+[]\T1/ntxtlf/m/n/8 Daniel Dahlin E. V., 2015, Re-duc-ing da-ta from SAL-SA in
+ []
+
+[7pdfTeX warning (ext4): destination with the same identifier (name{figure.14})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.409 \end{document}
-                     <./example.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 409.
- (mnras_article.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 409.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 409.
+l.85   Uddin}{2013}]{santo2013mapping}
+                                      pdfTeX warning (ext4): destination with t
+he same identifier (name{figure.15}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.85   Uddin}{2013}]{santo2013mapping}
+                                      pdfTeX warning (ext4): destination with t
+he same identifier (name{figure.16}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.85   Uddin}{2013}]{santo2013mapping}
+                                      pdfTeX warning (ext4): destination with t
+he same identifier (name{figure.17}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.85   Uddin}{2013}]{santo2013mapping}
+                                       <./RotationCurve_4-eps-converted-to.pdf>
+ <./RotationCurve_5-eps-converted-to.pdf> <./RotationCurve_6-eps-converted-to.p
+df> <./RotationCurve_7-eps-converted-to.pdf>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 485.
+ [8pdfTeX warning (ext4): destination with the same identifier (name{figure.18}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.485 \end{document}
+                    
+
+ <./RotationCurve_8-eps-converted-to.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 485.
+
+(mnras_article.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 485.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 485.
 Package rerunfilecheck Info: File `mnras_article.out' has not changed.
-(rerunfilecheck)             Checksum: 7A24B84492302E62EE4D259EB5182C45;540.
+(rerunfilecheck)             Checksum: CD15661329AE5C2F1191E815987CBEC7;635.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.97499pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 409.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 485.
  ) 
 Here is how much of TeX's memory you used:
- 10260 strings out of 495222
- 143836 string characters out of 3181578
- 229225 words of memory out of 3000000
- 13230 multiletter control sequences out of 15000+200000
- 217748 words of font info for 304 fonts, out of 3000000 for 9000
+ 10418 strings out of 495222
+ 147046 string characters out of 3181578
+ 231773 words of memory out of 3000000
+ 13314 multiletter control sequences out of 15000+200000
+ 225301 words of font info for 327 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 35i,15n,37p,2263b,374s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 35i,15n,37p,2263b,514s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1205,19 +1583,21 @@ lic/tex-gyre/qtmb.pfb><D:/Latex_Portable/texmfs/install/fonts/type1/public/tex-
 gyre/qtmbi.pfb><D:/Latex_Portable/texmfs/install/fonts/type1/public/tex-gyre/qt
 mr.pfb><D:/Latex_Portable/texmfs/install/fonts/type1/public/tex-gyre/qtmri.pfb>
 <D:/Latex_Portable/texmfs/install/fonts/type1/public/newtx/rntxbmi.pfb><D:/Late
-x_Portable/texmfs/install/fonts/type1/public/newtx/rntxmi.pfb><D:/Latex_Portabl
-e/texmfs/install/fonts/type1/public/newtx/rntxmi7.pfb><D:/Latex_Portable/texmfs
-/install/fonts/type1/public/newtx/rtxbmi-rev.pfb><D:/Latex_Portable/texmfs/inst
-all/fonts/type1/public/txfonts/rtxmi.pfb><D:/Latex_Portable/texmfs/install/font
-s/type1/public/newtx/rtxmi5.pfb><D:/Latex_Portable/texmfs/install/fonts/type1/p
-ublic/txfonts/rtxr.pfb><D:/Latex_Portable/texmfs/install/fonts/type1/public/new
-tx/txbsys.pfb><D:/Latex_Portable/texmfs/install/fonts/type1/public/newtx/txexs.
-pfb><D:/Latex_Portable/texmfs/install/fonts/type1/public/txfonts/txmia.pfb><D:/
-Latex_Portable/texmfs/install/fonts/type1/public/newtx/txsys.pfb><D:/Latex_Port
-able/texmfs/install/fonts/type1/urw/times/utmri8a.pfb>
-Output written on mnras_article.pdf (4 pages, 253799 bytes).
+x_Portable/texmfs/install/fonts/type1/public/newtx/rntxbmi5.pfb><D:/Latex_Porta
+ble/texmfs/install/fonts/type1/public/newtx/rntxmi.pfb><D:/Latex_Portable/texmf
+s/install/fonts/type1/public/newtx/rntxmi5.pfb><D:/Latex_Portable/texmfs/instal
+l/fonts/type1/public/newtx/rntxmi7.pfb><D:/Latex_Portable/texmfs/install/fonts/
+type1/public/newtx/rtxbmi-rev.pfb><D:/Latex_Portable/texmfs/install/fonts/type1
+/public/txfonts/rtxmi.pfb><D:/Latex_Portable/texmfs/install/fonts/type1/public/
+newtx/rtxmi5.pfb><D:/Latex_Portable/texmfs/install/fonts/type1/public/txfonts/r
+txr.pfb><D:/Latex_Portable/texmfs/install/fonts/type1/public/newtx/txbsys.pfb><
+D:/Latex_Portable/texmfs/install/fonts/type1/public/newtx/txexs.pfb><D:/Latex_P
+ortable/texmfs/install/fonts/type1/public/txfonts/txmia.pfb><D:/Latex_Portable/
+texmfs/install/fonts/type1/public/newtx/txsys.pfb><D:/Latex_Portable/texmfs/ins
+tall/fonts/type1/urw/times/utmri8a.pfb>
+Output written on mnras_article.pdf (8 pages, 372874 bytes).
 PDF statistics:
- 327 PDF objects out of 1000 (max. 8388607)
- 54 named destinations out of 1000 (max. 500000)
- 88 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 507 PDF objects out of 1000 (max. 8388607)
+ 78 named destinations out of 1000 (max. 500000)
+ 179 words of extra memory for PDF output out of 10000 (max. 10000000)
 

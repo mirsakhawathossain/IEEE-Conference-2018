@@ -37,13 +37,27 @@ Cathy~Horellou D.~J.,  Varenius E.,  2015, SALSA project documentation: Mapping
 Christiansen W.~N.,  Hindman J.~V.,  1952, \mn@doi [Australian Journal of
   Chemistry] {10.1071/ch9520437}, 5, 437
 
+\bibitem[\protect\citeauthoryear{Daniel~Dahlin}{Daniel~Dahlin}{2015}]{DanielDahlin2015}
+Daniel~Dahlin E.~V.,  2015, Reducing data from SALSA in Matlab-SalsaSpectrum.
+\url {https://vale.oso.chalmers.se/salsa/software}
+
 \bibitem[\protect\citeauthoryear{Doran et~al.,}{Doran et~al.}{2007}]{Doran2007}
 Doran R.,  et~al., 2007, in European Planetary Science Congress 2007. p.~940,
   \url {http://adsabs.harvard.edu/abs/2007epsc.conf..940D}
 
+\bibitem[\protect\citeauthoryear{Ferlet \& Pennypacker}{Ferlet \&
+  Pennypacker}{2006}]{Ferlet2006}
+Ferlet R.,  Pennypacker C.~R.,  2006, in , Organizations and Strategies in
+  Astronomy Volume 6.
+Springer Netherlands, pp 275--286, \mn@doi{10.1007/1-4020-4056-3_20}
+
 \bibitem[\protect\citeauthoryear{Griffiths}{Griffiths}{2016}]{griffiths2016introduction}
 Griffiths D.~J.,  2016, Introduction to quantum mechanics.
 Cambridge University Press
+
+\bibitem[\protect\citeauthoryear{Hossain}{Hossain}{2018}]{Hossain2018}
+Hossain M.~S.,  2018, {Mapping the Milky Way at 21 cm Wave Length with SALSA
+  Radio Telescope}, \mn@doi{10.5281/zenodo.1184216}
 
 \bibitem[\protect\citeauthoryear{Jansky}{Jansky}{1933}]{jansky1933radio}
 Jansky K.~G.,  1933, \mn@doi [Nature] {10.1038/132066a0}, 132, 66

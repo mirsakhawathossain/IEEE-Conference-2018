@@ -45,6 +45,7 @@
 \usepackage{amssymb}	% Extra maths symbols
 \usepackage{sistyle}    %SI unit style
 \usepackage{romannum}   %Roman numbering style
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%% AUTHORS - PLACE YOUR OWN COMMANDS HERE %%%%%
@@ -65,13 +66,13 @@
 % If you need two or more lines of authors, add an extra line using \newauthor
 \author[Mir Sakhawat Hossain et al.]{
 Mir Sakhawat Hossain,$^{1}$\thanks{E-mail: s.hossain18@gmail.com}
-%A. N. Other,$^{2}$
+Banrupa Mallik,$^{2}$
 %Third Author$^{2,3}$
 \\
 % List of institutions
 $^{1}$International Astrostatistics Association, Milano, Italy\\
 $^{1}$Department of Mathematics, Kabi Nazrul Government College, Laxmi Bazar, Dhaka-1100, Bangladesh\\
-%$^{3}$Another Department, Different Institution, Street Address, City Postal Code, Country
+$^{2}$Department of Physics, Begum Badrunnesa Government Women College, 7, Bakshibazar, Dhaka-1211, Bangladesh
 }
 
 % These dates will be filled out by the publisher
@@ -88,6 +89,7 @@ $^{1}$Department of Mathematics, Kabi Nazrul Government College, Laxmi Bazar, Dh
 
 % Abstract of the paper
 \begin{abstract}
+
 After discovery of radiation from Galactic Hydrogen gas clouds in 1951 the 21 cm wavelength hyperfine line of atomic Hydrogen has become the best method to study spectral features in radio astronomy. It has been used as an important tracer for the distribution and velocity of gas clouds in the Inter stellar that has helped enormously to understand the galactic structure. For undergraduate level laboratory experiment it can be assembled a radio frequency receiving system at a low cost to study galactic structure. This paper presents an observation to determine the spiral structure of Milky Way galaxy which was carried out within galactic coordinate longitude $6\degr$ to $225\degr$ and latitude $0\degr$ to $35\degr$ with a low cost Haystack model type radio frequency receiving system $2.3$ metre SALSA radio telescope at Onsala Space Observatory in Sweden maintained by Chalmers University of Technology. Velocity components of Hydrogen gas clouds were calculated in different galactic longitudes and latitudes as function of distance from galactic centre to plot spiral galactic arms. This observation was made in frequency switching mode and the telescope was remotely operated by internet.
 \end{abstract}
 
@@ -102,13 +104,14 @@ Galaxy: general -- Galaxy: structure -- radio lines: galaxies -- surveys
 %%%%%%%%%%%%%%%%% BODY OF PAPER %%%%%%%%%%%%%%%%%%
 
 \section{Introduction}
+
 Neutral Hydrogen(\ion{H}{I}) at ground state level is abundant and uniformly distributed element throughout the interstellar medium(ISM). It is the most ubiquitous element in low density regions of ISM but detectable in $\lambda\approx21$ cm or $\approx1420$ MHz where $\textnormal{H}_2$ is symmetric but not detectable at the radio frequencies. In 1933 Karl Guthe Jansky detected first extraterrestrial radio frequency\citep{jansky1933radio}. After that in 45 Then Van de Hulst predicted $21$ cm wavelength emission\citep{CJBakker1945}. The same frequency line also detected by Muller and Oort\citep{muller1951observation} in the same year. A preliminary survey was taken by Christiansen and Hindman\citep{christiansen1952preliminary} in Australia. They made this survey with a $7.5$\textnormal{-m} paraboloid and movable radio antenna with beam width between half power $1.9\degr$ in horizontal and $2.7\degr$ in vertical direction and it covered galactic longitude $-10\degr$ to $+10\degr$ at galactic plane. In Netherlands Muller and Westerhout\citep{Muller1957} took an extended neutral HI line profile survey and made a catalogue approximately in galactic latitude $\pm20\degr$ and longitude $318\degr$ to $220\degr$. Within these periods angular resolution has been developed from $30\deg$ to $30$\,-\micro as\citep{kellermann2001development,Middelberg2008}. Recently all sky mapping in HI line based on EBHIS and GASS has been completed\citep{bekhti2016hi4pi} with angular resolution $16.2\arcsec$ and sensivity $\sigma_{rms}=43$\,mK. Santo and Ashraf\citep{santo2013mapping} carried out a galactic survey to map Milky Way galaxy in galactic longitude $0\degr$ to $225\degr$ at galactic plane using SALSA radio telescope which was built for EU HOU project\citep{Doran2007}. Considering this observation we have completed our observation using the SALSA radio telescope in extended galactic coordinates i.e., galactic longitude $6\degr$ to $225\degr$ and latitude $0\degr$ to $35\degr$. We have discussed here galactic geometry for observable parameters, observation details, data analysis and results with plotting and importance of this project.
 
 \section{Theory}
 
 \subsection{Hyperfine Splitting of Hydrogen}
 
-Neutral Hydrogen consists of a motionless proton(positive charged $+e$) and moving electron(negative charged $-e$) e.g. Fig~\ref{fig:hyperfine_figure}. Electron orbits around proton for the mutual attraction of opposite charges. The derivation is as follows Griffiths\citep{griffiths2016introduction}. We can imagine electron is orbiting around nucleus(proton). From the view of electron proton is orbiting electron. This circling creates a magnetic field $\mathbfit{B}$ in the frame of electron which causes torque on spinning electron. It tends to align its magnetic moment($\bmath{\mathit{\umu}}$) along the direction of magnetic field. So Hamiltonian~(\ref{eq:hamiltonian})
+Neutral Hydrogen consists of a motionless proton(positive charged $+e$) and moving electron(negative charged $-e$) see Figure~\ref{fig:hyperfine_figure}. Electron orbits around proton for the mutual attraction of opposite charges. The derivation is as follows Griffiths\citep{griffiths2016introduction}. We can imagine electron is orbiting around nucleus(proton). From the view of electron proton is orbiting electron. This circling creates a magnetic field $\mathbfit{B}$ in the frame of electron which causes torque on spinning electron. It tends to align its magnetic moment($\bmath{\mathit{\umu}}$) along the direction of magnetic field. So Hamiltonian~(\ref{eq:hamiltonian})
 
 \begin{equation}
   \mathit{H}=-\bmath{\mathit{\umu}\cdot\mathit{B}}
@@ -232,7 +235,7 @@ The corresponding wavelength is $c/\nu=21$ cm which is part of micro wave region
 
 \subsection{Geometry of Galaxy}
 
-The simplified geometry of the Milky Way galaxy\citep{CathyHorellou2015} is as Fig.~\ref{fig:galgeo_figure}
+The simplified geometry of the Milky Way galaxy\citep{CathyHorellou2015} see Figure.~\ref{fig:galgeo_figure}
 
 \begin{figure}
  \includegraphics[width=\columnwidth]{galgeom}
@@ -243,7 +246,7 @@ indicate the velocity of the Sun ($\mathbfit{V}_{0}$) and the gas cloud ($\mathb
  \label{fig:galgeo_figure}
 \end{figure}
 
-There may be many Hydrogen gas clouds in this direction, but for the purpose of this derivation we only care about a single cloud located at position M in Fig.~\ref{fig:galgeo_figure}. Since both the Sun and the cloud are moving, we do not measure the cloud velocity directly. Instead, we measure the relative velocity, $\mathbfit{V}_{r}$, between the us and the cloud, projected on the line-of-sight. Since the observation of Hydrogen gas clouds located at tangential points of galactic plane at different longitudes, the radial velocity of the gas clouds can be written as~(\ref{eq:radial_velocity}),
+There may be many Hydrogen gas clouds in this direction, but for the purpose of this derivation we only care about a single cloud located at position M see Figure.~\ref{fig:galgeo_figure}. Since both the Sun and the cloud are moving, we do not measure the cloud velocity directly. Instead, we measure the relative velocity, $\mathbfit{V}_{r}$, between the us and the cloud, projected on the line-of-sight. Since the observation of Hydrogen gas clouds located at tangential points of galactic plane at different longitudes, the radial velocity of the gas clouds can be written as~(\ref{eq:radial_velocity}),
 
 \begin{equation}
   \mathbfit{V}_{r}=\mathbfit{V}\cos\alpha-\mathbfit{V}_{0}\sin c
@@ -271,7 +274,7 @@ With this assumption we can write from equation~(\ref{eq:radial_simplified}) we 
  \label{eq:distance_cloud}
 \end{equation}
 
-From measurement of radial velocity $\mathbfit{V}_{r}$ we have calculated distance of gas cloud to the galactic centre. With the assumption of $\mathit{R}_{0}=8.5$\,kpc and $\mathbfit{V}_{0}=220$\,km\,s$^{-1}$, we can calculate value of $\mathit{R}$ for different values of galactic longitude $\mathit{l}$. From Fig.~\ref{fig:galgeo_figure} we see that in the Quadrants \Romannum{1} or \Romannum{4} there can be there may be two possible locations corresponding to given values of $\mathit{l}$ and $\mathit{R}$ to us than the tangential point T (the actual point M on the Fig.~\ref{fig:galgeo_figure}), or farther away, at the intersection of the ST line and the inner circle. But in the Quadrants \Romannum{2} or \Romannum{3} position of the emitting gas clouds can be determined uniquely\citep{CathyHorellou2015}. By the law of cosine in triangle in \textbf{CSM} we have equation~(\ref{eq:cosine_theory}),
+From measurement of radial velocity $\mathbfit{V}_{r}$ we have calculated distance of gas cloud to the galactic centre. With the assumption of $\mathit{R}_{0}=8.5$\,kpc and $\mathbfit{V}_{0}=220$\,km\,s$^{-1}$, we can calculate value of $\mathit{R}$ for different values of galactic longitude $\mathit{l}$. From Figure.~\ref{fig:galgeo_figure} we see that in the Quadrants \Romannum{1} or \Romannum{4} there can be there may be two possible locations corresponding to given values of $\mathit{l}$ and $\mathit{R}$ to us than the tangential point T (the actual point M on the Figure.~\ref{fig:galgeo_figure}), or farther away, at the intersection of the ST line and the inner circle. But in the Quadrants \Romannum{2} or \Romannum{3} position of the emitting gas clouds can be determined uniquely\citep{CathyHorellou2015}. By the law of cosine in triangle in \textbf{CSM} we have equation~(\ref{eq:cosine_theory}),
 
 \begin{equation}
  \mathit{R}^{2}=\mathit{R}_{0}^{2}+\mathit{r}^{2}-2\mathit{R}_{0}\mathit{r}\cos l
@@ -285,87 +288,160 @@ This is a second-order equation in $\mathit{r}$ where $\mathit{r}$ is distance t
  \label{eq:cosine_solution}
 \end{equation}
 
-From equation~(\ref{eq:cosine_solution}) we will discard two positive and one negative values. For convenient way of plotting to map the Milky Way structure, we convert the polar coordinate positions given as $\mathit{r}$ and $\mathit{l}$ to Cartesian $\bmath{x-y}$ coordinates using single positive values by~\ref{eqn:rpmtocart}
+From equation~(\ref{eq:cosine_solution}) we have discarded negative values and accepted one positive and two positive values. For convenient way of plotting to map the Milky Way structure, we convert the polar coordinate positions given as $\mathit{r}$ and $\mathit{l}$ to Cartesian $\bmath{x-y}$ coordinates using positive and negative values by~\ref{eqn:rpmtocart}
 
 \begin{equation}
 \left\lbrace
 \begin{array}{l}
-	x=r \cos (l-90\degr) \\
-	y=r \sin (l-90\degr) \\
+	x=\mathit{r} \cos (\mathit{l}-90\degr) \\
+	y=-\mathit{R}_{0}+\mathit{r} \sin (\mathit{l}-90\degr) \\
 \end{array}
 \right.
 \label{eqn:rpmtocart}
 \end{equation}
 
-By calculating the value of $\bmath{x}$ and $\bmath{y}$ for different velocities at different galactic longitudes $\mathit{l}$ in a graph to plot the map of Milky Way galaxy.
+Here we have deducted $\mathit{R}_{0}$ in $\bmath{y}$ values instead of adding to get image of rotation to fit the Wikipedia image of galactic coordinates and during plotting we converted values from degree to radian. By calculating the value of $\bmath{x}$ and $\bmath{y}$ for different velocities at different galactic longitudes $\mathit{l}$ in a graph to plot the map of Milky Way galaxy.
 
-\section{Methods, Observations, Simulations etc.}
+\section{Observations}
 
-Normally the next section describes the techniques the authors used.
-It is frequently split into subsections, such as Section~\ref{sec:maths} below.
+This observation was made with SALSA Radio Telescope situated in Onsala Space Observatory, Sweden. This telescope was operated to collect raw data through internet from Dhaka, Bangladesh. There are two radio lab antennas called "Brage" and "Vale". We used both of them. Each antenna has a diameter $2.3$\,-m dish. The angular resolution is $7\degr$ at \ion{H}{I} radio frequency line($\SI{1420}{MHz}$). Bandwidth of the receivers is $\SI{2.5}{MHz}$ and 256 frequency channels. Width of each channel is $\SI{9.765}{KHz}$. The telescope is controlled by qradio software. The observation was completed in frequency switching mode with reference frequency $\SI{1422.9}{MHz}$ and gain factor $800$.
 
-\subsection{Maths}
-\label{sec:maths} % used for referring to this section from elsewhere
+\subsection{Data Reduction}
 
-Simple mathematics can be inserted into the flow of the text e.g. $2\times3=6$
-or $v=220$\,km\,s$^{-1}$, but more complicated expressions should be entered
-as a numbered equation:
+The observation was completed within galactic coordinate longitude $6\degr$ to $225\degr$ and latitude $0\degr$ to $35\degr$ following $3\degr$ for galactic longitudes and $5\degr$ for galactic latitudes. The spectra was collected with integration time $150-300$\,seconds for each. By observing radio emission from galaxy Hydrogen we come to know the motion of Hydrogen gas clouds around Milky Way galaxy. We use Doppler effect to relate observed frequency spectra to velocity of emitting Hydrogen gas clouds. By the equation of Doppler shift we get~(\ref{eq:doppler})
 
 \begin{equation}
-    x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}.
-	\label{eq:quadratic}
+ \frac{\bmath{f}-\bmath{f}_{0}}{\bmath{f}_{0}}=-\frac{\mathbfit{v}}{\mathbfit{c}}
+ \label{eq:doppler}
 \end{equation}
 
-Refer back to them as e.g. equation~(\ref{eq:quadratic}).
+Here $\bmath{f}$ is the observed frequency, $\bmath{f}_{0}$ is the rest frequency of line we are observing, $\mathbfit{v}$ is the velocity of gas clouds(positive velocity for receding and negative velocity for approaching) and $\mathbfit{c}$ is the velocity of light. Thus we converted frequency spectra to velocity scale then we corrected baselines. After that we applied Gaussian Fit function to smooth the spectra according to the equation~(\ref{eq:gaussianfit})
 
-\subsection{Figures and tables}
+\begin{equation}
+  \bmath{y}=\sum^n_{i=1}\bmath{a}_{i}e^{\left[-\left(\frac{\bmath{x}-\bmath{b}}{\bmath{c}_{i}} \right)^{2}\right]}
+  \label{eq:gaussianfit}
+\end{equation}
 
-Figures and tables should be placed at logical positions in the text. Don't
-worry about the exact layout, which will be handled by the publishers.
+Here $\bmath{a}$ is the amplitude of spectra, $\bmath{b}$ is the location of the centre of peak, $\bmath{c}$ is the width of peak and $n$ is number of peaks to fit. We collected peak values with SalsaJ software and SalsaSpectrum\citep{DanielDahlin2015} MATLAB software class file. We have saved all the raw FITS files, Analysis codes, SalsaSpectrum class file and final plotted graphs in a data repository\citep{Hossain2018}.
 
-Figures are referred to as e.g. Fig.~\ref{fig:example_figure}, and tables as
-e.g. Table~\ref{tab:example_table}.
+\subsection{Result}
 
-% Example figure
+The Gaussian Fit equation~(\ref{eq:gaussianfit}) has been applied to calculate the central velocity of the spectra. Then we used the equation~(\ref{eq:distance_cloud}) to calculate distance $\mathit{R}$ of the clouds for different longitudes $\mathit{l}$. The values of $\mathit{R}$ has been used to calculate $\mathit{r}$ and checked whether it is single or double positive where we discarded negative values. We converted these values to the Cartesian coordinates and plotted these coordinates to unravel the spiral structure of Milky Way Galaxy using MATLAB software of version R2017a. Here Perseus arm, Orion arm and other outer arms are well detectable but some of them are merged partially. Here Map of Milky Way in Figure~\ref{fig:map-1}, \ref{fig:map-2}, \ref{fig:map-3}, \ref{fig:map-4}, \ref{fig:map-5}, \ref{fig:map-6}, \ref{fig:map-7} and \ref{fig:map-8}
+
 \begin{figure}
-	% To include a figure from a file named example.*
-	% Allowable file formats are eps or ps if compiling using latex
-	% or pdf, png, jpg if compiling using pdflatex
-	\includegraphics[width=\columnwidth]{example}
-    \caption{This is an example figure. Captions appear below each figure.
-	Give enough detail for the reader to understand what they're looking at,
-	but leave detailed discussion to the main body of the text.}
-    \label{fig:example_figure}
+      \includegraphics[width=\columnwidth]{Map_1}
+      \caption{Map of Milky Way at Galactic longitude $\mathit{l}=6\degr-225\degr$ and latitude $\mathit{l}=0\degr$}
+      \label{fig:map-1}
 \end{figure}
 
-% Example table
-\begin{table}
-	\centering
-	\caption{This is an example table. Captions appear above each table.
-	Remember to define the quantities, symbols and units used.}
-	\label{tab:example_table}
-	\begin{tabular}{lccr} % four columns, alignment for each
-		\hline
-		A & B & C & D\\
-		\hline
-		1 & 2 & 3 & 4\\
-		2 & 4 & 6 & 8\\
-		3 & 5 & 7 & 9\\
-		\hline
-	\end{tabular}
-\end{table}
+\begin{figure}
+      \includegraphics[width=\columnwidth]{Map_2}
+      \caption{Map of Milky Way at Galactic longitude $\mathit{l}=6\degr-225\degr$ and latitude $\mathit{l}=5\degr$}
+      \label{fig:map-2}
+\end{figure}
+
+\begin{figure}
+      \includegraphics[width=\columnwidth]{Map_3}
+      \caption{Map of Milky Way at Galactic longitude $\mathit{l}=6\degr-225\degr$ and latitude $\mathit{l}=10\degr$}
+      \label{fig:map-3}
+\end{figure}
+
+\begin{figure}
+      \includegraphics[width=\columnwidth]{Map_4}
+      \caption{Map of Milky Way at Galactic longitude $\mathit{l}=6\degr-225\degr$ and latitude $\mathit{l}=15\degr$}
+      \label{fig:map-4}
+\end{figure}
+
+\begin{figure}
+      \includegraphics[width=\columnwidth]{Map_5}
+      \caption{Map of Milky Way at Galactic longitude $\mathit{l}=6\degr-225\degr$ and latitude $\mathit{l}=20\degr$}
+      \label{fig:map-5}
+\end{figure}
+
+\begin{figure}
+      \includegraphics[width=\columnwidth]{Map_6}
+      \caption{Map of Milky Way at Galactic longitude $\mathit{l}=6\degr-225\degr$ and latitude $\mathit{l}=25\degr$}
+      \label{fig:map-6}
+\end{figure}
+
+\begin{figure}
+      \includegraphics[width=\columnwidth]{Map_7}
+      \caption{Map of Milky Way at Galactic longitude $\mathit{l}=6\degr-225\degr$ and latitude $\mathit{l}=30\degr$}
+      \label{fig:map-7}
+\end{figure}
+
+\begin{figure}
+      \includegraphics[width=\columnwidth]{Map_8}
+      \caption{Map of Milky Way at Galactic longitude $\mathit{l}=6\degr-225\degr$ and latitude $\mathit{l}=35\degr$}
+      \label{fig:map-8}
+\end{figure}
+
+Moreover we know that rotation curve is a function between circular velocity and radius. By using SALSA Telescope we can calculate the rotation curve of Milky Way. We have calculated and plotted the rotation curve see Figure~\ref{fig:rot-1}, \ref{fig:rot-2}, \ref{fig:rot-3}, \ref{fig:rot-4}, \ref{fig:rot-5}, \ref{fig:rot-6}, \ref{fig:rot-7} and \ref{fig:rot-8}. Rotation curve of most galaxies which have solar systems shows flat rotation curve i.e. $\mathbfit{V}(\mathit{R})$ does not depend on $\mathit{R}$ beyond certain radius. Angular velocity$\Omega$ varies as $\frac{1}{\mathit{R}}$. Matter near galactic center rotates with a larger angular speed than matter of farther away. But for larger radii this velocity is significantly larger than Keplerian case\citep{DanielDahlin2015}. The figures we have got indicates indirectly the existence of dark matter see Figure~\ref{fig:rot-1}, \ref{fig:rot-2}, \ref{fig:rot-3}, \ref{fig:rot-4}, \ref{fig:rot-5}, \ref{fig:rot-6}, \ref{fig:rot-7} and \ref{fig:rot-8}.
+
+\begin{figure}
+      \includegraphics[width=\columnwidth]{RotationCurve_1}
+      \caption{Map of Milky Way at Galactic longitude $\mathit{l}=6\degr-225\degr$ and latitude $\mathit{l}=0\degr$}
+      \label{fig:rot-1}
+\end{figure}
+
+\begin{figure}
+      \includegraphics[width=\columnwidth]{RotationCurve_2}
+      \caption{Map of Milky Way at Galactic longitude $\mathit{l}=6\degr-225\degr$ and latitude $\mathit{l}=5\degr$}
+      \label{fig:rot-2}
+\end{figure}
+
+\begin{figure}
+      \includegraphics[width=\columnwidth]{RotationCurve_3}
+      \caption{Map of Milky Way at Galactic longitude $\mathit{l}=6\degr-225\degr$ and latitude $\mathit{l}=10\degr$}
+      \label{fig:rot-3}
+\end{figure}
+
+\begin{figure}
+      \includegraphics[width=\columnwidth]{RotationCurve_4}
+      \caption{Map of Milky Way at Galactic longitude $\mathit{l}=6\degr-225\degr$ and latitude $\mathit{l}=15\degr$}
+      \label{fig:rot-4}
+\end{figure}
+
+\begin{figure}
+      \includegraphics[width=\columnwidth]{RotationCurve_5}
+      \caption{Map of Milky Way at Galactic longitude $\mathit{l}=6\degr-225\degr$ and latitude $\mathit{l}=20\degr$}
+      \label{fig:rot-5}
+\end{figure}
+
+\begin{figure}
+      \includegraphics[width=\columnwidth]{RotationCurve_6}
+      \caption{Map of Milky Way at Galactic longitude $\mathit{l}=6\degr-225\degr$ and latitude $\mathit{l}=25\degr$}
+      \label{fig:rot-6}
+\end{figure}
+
+\begin{figure}
+      \includegraphics[width=\columnwidth]{RotationCurve_7}
+      \caption{Map of Milky Way at Galactic longitude $\mathit{l}=6\degr-225\degr$ and latitude $\mathit{l}=30\degr$}
+      \label{fig:rot-7}
+\end{figure}
+
+\begin{figure}
+      \includegraphics[width=\columnwidth]{RotationCurve_8}
+      \caption{Map of Milky Way at Galactic longitude $\mathit{l}=6\degr-225\degr$ and latitude $\mathit{l}=35\degr$}
+      \label{fig:rot-8}
+\end{figure}
+
+\section{Limitations and Errors}
+
+The diameter of the SALSA Telescope is small which reduces its sensitivity. But they have strong and sensitive receiver and so detected important signals but could not detect the weaker \ion{H}{I} signals from lower density areas. Below $6\degr$ and above $225\degr$ was not possible to observe for geographical position of telescopes. Some outer arms could not be observed. There are may be errors in central velocity measurements of spectra.
+
+\section{Importance of this Experiment}
+
+This project is a Hands on Universe project\citep{Ferlet2006}. Here our primary goal is to show the importance of Hands on astronomy and astrophysics. This kind of practices can reduce the distance between professional astronomers and general people specially students, teachers and amateur astronomers. Cost effective instruments can be used for amateur experiments because professional observatories are tight scheduled for high level experiments. Even general people can contribute to discover new things which can be slipped by professional scientists. So this kind of experiment has importance both of education and research.
 
 
 \section{Conclusions}
 
-The last numbered section should briefly summarise what has been done, and describe
-the final conclusions which the authors draw from their work.
+We have observed Milky Way galaxy within galactic longitudes $6\degr$ to $225\degr$ and latitudes $0\degr$ to $3\degr$ successfully and mapped it with rotation curves which proves the existence of dark matter. It matched with previous observations. The spiral structure is clearly detectable in maps. In future we will observe with larger professional radio telescope for all sky survey to understand the 3D structure of Milky Way and its properties with higher sensitive and higher resolution.
 
 \section*{Acknowledgements}
 
-The Acknowledgements section is not numbered. Here you can thank helpful
-colleagues, acknowledge funding agencies, telescopes and facilities used etc.
-Try to keep it short.
+We are grateful to Onsala space observatory and Chalmers University of Technology for their cooperation to complete this survey. Special thanks to Eskil Varenius who was a supervisor of SALSA who helped us a lot to operate this telescopes and provided important information.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
